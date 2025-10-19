@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "types": ["@types/node"],
+    "resolveJsonModule": true
+  },
+  "include": ["features/**/*.ts", "pages/**/*.ts", "test-data/**/*.json"]
+}

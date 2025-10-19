@@ -1,0 +1,1990 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "Rýchla navigácia" [ref=e3]:
+      - heading "Preskočiť na" [level=5] [ref=e4]
+      - list "Preskočiť na" [ref=e5]:
+        - listitem [ref=e6]:
+          - link "Preskočiť na hlavný obsah" [ref=e7] [cursor=pointer]:
+            - /url: "#main-content"
+            - text: Hlavný obsah
+        - listitem [ref=e8]:
+          - link "Preskočiť na zoznam titulov" [ref=e9] [cursor=pointer]:
+            - /url: /search?q=prebijem+sa%21+Stefanik#search-results
+            - text: Zoznam titulov
+      - heading "Klávesové skratky" [level=5] [ref=e10]
+      - list "Klávesové skratky" [ref=e11]:
+        - listitem [ref=e12]:
+          - link "Vyhľadávanie, Alt, Shift, S" [ref=e13] [cursor=pointer]:
+            - /url: "#search-in-header"
+            - generic [ref=e14]:
+              - generic [ref=e15]: Vyhľadávanie
+              - generic [ref=e16]:
+                - code [ref=e17]: Alt
+                - text: +
+                - code [ref=e18]: Shift
+                - text: +
+                - code [ref=e19]: S
+        - listitem [ref=e20]:
+          - link "Košík, Alt, Shift, C" [ref=e21] [cursor=pointer]:
+            - /url: /cart
+            - generic [ref=e22]:
+              - generic [ref=e23]: Košík
+              - generic [ref=e24]:
+                - code [ref=e25]: Alt
+                - text: +
+                - code [ref=e26]: Shift
+                - text: +
+                - code [ref=e27]: C
+        - listitem [ref=e28]:
+          - button "Zobraziť/skryť skratky, Alt, Shift, X" [ref=e29] [cursor=pointer]:
+            - generic [ref=e30]:
+              - generic [ref=e31]: Zobraziť/skryť skratky
+              - generic [ref=e32]:
+                - code [ref=e33]: Alt
+                - text: +
+                - code [ref=e34]: Shift
+                - text: +
+                - code [ref=e35]: X
+    - link "Hra Martinus Knižné putovanie je späť! Zapojte sa do hry a vyhrajte knihy na celý rok" [ref=e36] [cursor=pointer]:
+      - /url: https://www.martinus.sk/knizneputovanie
+      - generic [ref=e38]:
+        - strong [ref=e39]: Hra Martinus Knižné putovanie je späť! Zapojte sa do hry a vyhrajte knihy na celý rok
+        - img [ref=e40]
+    - banner [ref=e42]:
+      - generic [ref=e43]:
+        - generic [ref=e45]:
+          - link "Čitateľský klub Martinus. Kniha Nevpúšťaj sem les, C.G. Drews. Vydavateľstvo Slovart, 2025." [ref=e48] [cursor=pointer]:
+            - /url: https://rs4.martinus.sk/delivery/cl.php?bannerid=38109&zoneid=84&sig=b73f6f6400d9bf85ebcabd9db9421eca4f6d250d7e3a1f626d8f0405f9addf6d&oadest=https%3A%2F%2Fwww.martinus.sk%2F3594775-nevpustaj-sem-les%2F3253091
+            - img "Čitateľský klub Martinus. Kniha Nevpúšťaj sem les, C.G. Drews. Vydavateľstvo Slovart, 2025." [ref=e49]
+          - navigation [ref=e50]:
+            - link "Doručenie" [ref=e51] [cursor=pointer]:
+              - /url: https://www.martinus.sk/dorucenie
+              - img [ref=e52]
+              - text: Doručenie
+            - link "Kníhkupectvá" [ref=e54] [cursor=pointer]:
+              - /url: https://www.martinus.sk/knihkupectva
+              - img [ref=e55]
+              - text: Kníhkupectvá
+            - link "Knihovrátok" [ref=e57] [cursor=pointer]:
+              - /url: https://www.martinus.sk/knihovratok
+              - img [ref=e58]
+              - text: Knihovrátok
+            - link "Poukážky" [ref=e60] [cursor=pointer]:
+              - /url: https://www.martinus.sk/l?categories%5B0%5D=7760
+              - img [ref=e61]
+              - text: Poukážky
+            - link "Knižný blog" [ref=e63] [cursor=pointer]:
+              - /url: https://blog.martinus.sk/
+              - img [ref=e64]
+              - text: Knižný blog
+            - link "Kontakt" [ref=e66] [cursor=pointer]:
+              - /url: https://www.martinus.sk/kontakt
+              - img [ref=e67]
+              - text: Kontakt
+        - generic [ref=e70]:
+          - link "Martinus" [ref=e72] [cursor=pointer]:
+            - /url: /
+            - img "Martinus" [ref=e73]
+          - navigation [ref=e75]:
+            - button "Knihy" [ref=e76] [cursor=pointer]:
+              - text: Knihy
+              - img [ref=e77]
+            - link "E-knihy" [ref=e79] [cursor=pointer]:
+              - /url: /l?categories%5B0%5D=6001&types%5B0%5D=ekniha
+            - link "Audioknihy" [ref=e80] [cursor=pointer]:
+              - /url: /l?categories%5B0%5D=6001&types%5B0%5D=audiokniha
+            - link "Hry" [ref=e81] [cursor=pointer]:
+              - /url: /l?categories%5B0%5D=6982
+            - link "Filmy" [ref=e82] [cursor=pointer]:
+              - /url: /l?categories%5B0%5D=7104
+            - button "Doplnky" [ref=e83] [cursor=pointer]:
+              - text: Doplnky
+              - img [ref=e84]
+          - generic [ref=e89]:
+            - generic [ref=e90]: Vyhľadávanie
+            - generic [ref=e91]:
+              - textbox "Vyhľadávanie" [ref=e92]: prebijem sa! Stefanik
+              - button "Hľadať" [ref=e94] [cursor=pointer]:
+                - img [ref=e95]
+          - link "Prihlásiť" [ref=e98] [cursor=pointer]:
+            - /url: https://id.martinus.sk/login?source=eshop&redirect=%2Fsearch%3Fq%3Dprebijem%2Bsa%2521%2BStefanik
+            - img [ref=e99]
+            - generic [ref=e101]: Prihlásiť
+          - link "Košík" [ref=e103] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e104]
+      - text: • • • • • • • • • • • • • • •
+    - main [ref=e106]:
+      - link "Martinus Knižné putovanie 3. Zapoj s do hry a vyhraj knihy na celý rok. Chcem hrať" [ref=e109] [cursor=pointer]:
+        - /url: https://rs4.martinus.sk/delivery/cl.php?bannerid=38141&zoneid=67&sig=5451b6f302c1b2bcce0116e3b3aedbe1b2887f2beacf841e7f6f2d8483c4d0c0&oadest=https%3A%2F%2Fwww.martinus.sk%2Fknizneputovanie
+        - img "Martinus Knižné putovanie 3. Zapoj s do hry a vyhraj knihy na celý rok. Chcem hrať" [ref=e110]
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - generic:
+            - generic:
+              - heading [level=1]
+        - generic [ref=e115]:
+          - generic [ref=e116]: "Hľadali ste:"
+          - heading "prebijem sa! Stefanik" [level=1] [ref=e118]
+      - generic [ref=e121]:
+        - generic "Zúžiť výber" [ref=e123]:
+          - generic "Filter" [ref=e125]:
+            - generic [ref=e126]:
+              - generic [ref=e127]:
+                - term [ref=e128]:
+                  - button "Zobraziť iba" [expanded] [ref=e129] [cursor=pointer]:
+                    - text: Zobraziť iba
+                    - img [ref=e130]
+                - definition [ref=e132]:
+                  - group [ref=e134]:
+                    - generic [ref=e135]:
+                      - checkbox "novinky (0 titulov)" [ref=e136]
+                      - generic [ref=e137]:
+                        - generic [ref=e138]: novinky (0 titulov)
+                        - link [ref=e139] [cursor=pointer]:
+                          - /url: /search?q=prebijem+sa%21+Stefanik&specials%5B0%5D=news
+                          - text: novinky
+                    - generic [ref=e140]:
+                      - checkbox "zľavnené tituly (0 titulov)" [ref=e141]
+                      - generic [ref=e142]:
+                        - generic [ref=e143]: zľavnené tituly (0 titulov)
+                        - link [ref=e144] [cursor=pointer]:
+                          - /url: /search?q=prebijem+sa%21+Stefanik&specials%5B0%5D=discounts
+                          - text: zľavnené tituly
+                    - generic [ref=e145]:
+                      - checkbox "na centrálnom sklade (0 titulov)" [ref=e146]
+                      - generic [ref=e147]:
+                        - generic [ref=e148]: na centrálnom sklade (0 titulov)
+                        - link [ref=e149] [cursor=pointer]:
+                          - /url: /search?q=prebijem+sa%21+Stefanik&specials%5B0%5D=in_stock
+                          - text: na centrálnom sklade
+                    - generic [ref=e150]:
+                      - checkbox "čítané (0 titulov)" [ref=e151]
+                      - generic [ref=e152]:
+                        - generic [ref=e153]: čítané (0 titulov)
+                        - link [ref=e154] [cursor=pointer]:
+                          - /url: /search?q=prebijem+sa%21+Stefanik&specials%5B0%5D=used
+                          - text: čítané
+                    - generic [ref=e155]:
+                      - checkbox "predpredaj (0 titulov)" [ref=e156]
+                      - generic [ref=e157]:
+                        - generic [ref=e158]: predpredaj (0 titulov)
+                        - link [ref=e159] [cursor=pointer]:
+                          - /url: /search?q=prebijem+sa%21+Stefanik&specials%5B0%5D=presale
+                          - text: predpredaj
+                    - generic [ref=e160]:
+                      - checkbox "pripravujeme (0 titulov)" [ref=e161]
+                      - generic [ref=e162]:
+                        - generic [ref=e163]: pripravujeme (0 titulov)
+                        - link [ref=e164] [cursor=pointer]:
+                          - /url: /search?q=prebijem+sa%21+Stefanik&specials%5B0%5D=coming_soon
+                          - text: pripravujeme
+                    - generic [ref=e165]:
+                      - checkbox "dostupné (bez vypredaných) (0 titulov)" [ref=e166]
+                      - generic [ref=e167]:
+                        - generic [ref=e168]: dostupné (bez vypredaných) (0 titulov)
+                        - link [ref=e169] [cursor=pointer]:
+                          - /url: /search?q=prebijem+sa%21+Stefanik&specials%5B0%5D=available
+                          - text: dostupné (bez vypredaných)
+                    - generic [ref=e170]:
+                      - checkbox "čítané verzie vypredaných kníh (0 titulov)" [ref=e171]
+                      - generic [ref=e172]:
+                        - generic [ref=e173]: čítané verzie vypredaných kníh (0 titulov)
+                        - link [ref=e174] [cursor=pointer]:
+                          - /url: /search?q=prebijem+sa%21+Stefanik&specials%5B0%5D=is_parent_out_of_stock
+                          - text: čítané verzie vypredaných kníh
+                  - button "Ďalšie možnosti" [ref=e175] [cursor=pointer]:
+                    - img [ref=e176]
+                    - text: Ďalšie možnosti
+              - term [ref=e179]:
+                - button "Pôvod" [ref=e180] [cursor=pointer]:
+                  - text: Pôvod
+                  - img [ref=e181]
+              - term [ref=e184]:
+                - button "Dostupnosť v kníhkupectve" [ref=e185] [cursor=pointer]:
+                  - text: Dostupnosť v kníhkupectve
+                  - img [ref=e186]
+              - term [ref=e189]:
+                - button "Vydavateľstvo" [ref=e190] [cursor=pointer]:
+                  - text: Vydavateľstvo
+                  - img [ref=e191]
+              - term [ref=e194]:
+                - button "Kolekcia" [ref=e195] [cursor=pointer]:
+                  - text: Kolekcia
+                  - img [ref=e196]
+              - term [ref=e199]:
+                - button "Väzba" [ref=e200] [cursor=pointer]:
+                  - text: Väzba
+                  - img [ref=e201]
+              - term [ref=e204]:
+                - button "Formát" [ref=e205] [cursor=pointer]:
+                  - text: Formát
+                  - img [ref=e206]
+              - term [ref=e209]:
+                - button "Obal" [ref=e210] [cursor=pointer]:
+                  - text: Obal
+                  - img [ref=e211]
+              - term [ref=e214]:
+                - button "Materiál" [ref=e215] [cursor=pointer]:
+                  - text: Materiál
+                  - img [ref=e216]
+              - term [ref=e219]:
+                - button "Farba obálky" [ref=e220] [cursor=pointer]:
+                  - text: Farba obálky
+                  - img [ref=e221]
+              - generic [ref=e223]:
+                - term [ref=e224]:
+                  - button "Typ" [expanded] [ref=e225] [cursor=pointer]:
+                    - text: Typ
+                    - img [ref=e226]
+                - definition [ref=e228]:
+                  - group [ref=e230]:
+                    - generic [ref=e231]:
+                      - checkbox "kniha (56609 titulov)" [ref=e232]
+                      - generic [ref=e233]:
+                        - generic [ref=e234]: kniha (56609 titulov)
+                        - link [ref=e235] [cursor=pointer]:
+                          - /url: /search?q=prebijem+sa%21+Stefanik&types%5B0%5D=kniha
+                          - text: kniha56609
+                    - generic [ref=e236]:
+                      - checkbox "e-kniha (4797 titulov)" [ref=e237]
+                      - generic [ref=e238]:
+                        - generic [ref=e239]: e-kniha (4797 titulov)
+                        - link [ref=e240] [cursor=pointer]:
+                          - /url: /search?q=prebijem+sa%21+Stefanik&types%5B0%5D=ekniha
+                          - text: e-kniha4797
+                    - generic [ref=e241]:
+                      - checkbox "ostatné (3464 titulov)" [ref=e242]
+                      - generic [ref=e243]:
+                        - generic [ref=e244]: ostatné (3464 titulov)
+                        - link [ref=e245] [cursor=pointer]:
+                          - /url: /search?q=prebijem+sa%21+Stefanik&types%5B0%5D=ostatne
+                          - text: ostatné3464
+                    - generic [ref=e246]:
+                      - checkbox "spoločenská hra (1534 titulov)" [ref=e247]
+                      - generic [ref=e248]:
+                        - generic [ref=e249]: spoločenská hra (1534 titulov)
+                        - link [ref=e250] [cursor=pointer]:
+                          - /url: /search?q=prebijem+sa%21+Stefanik&types%5B0%5D=hra
+                          - text: spoločenská hra1534
+                    - generic [ref=e251]:
+                      - checkbox "film (1392 titulov)" [ref=e252]
+                      - generic [ref=e253]:
+                        - generic [ref=e254]: film (1392 titulov)
+                        - link [ref=e255] [cursor=pointer]:
+                          - /url: /search?q=prebijem+sa%21+Stefanik&types%5B0%5D=dvd
+                          - text: film1392
+                    - generic [ref=e256]:
+                      - checkbox "audiokniha (1367 titulov)" [ref=e257]
+                      - generic [ref=e258]:
+                        - generic [ref=e259]: audiokniha (1367 titulov)
+                        - link [ref=e260] [cursor=pointer]:
+                          - /url: /search?q=prebijem+sa%21+Stefanik&types%5B0%5D=audiokniha
+                          - text: audiokniha1367
+                    - generic [ref=e261]:
+                      - checkbox "hudobné cd (1365 titulov)" [ref=e262]
+                      - generic [ref=e263]:
+                        - generic [ref=e264]: hudobné cd (1365 titulov)
+                        - link [ref=e265] [cursor=pointer]:
+                          - /url: /search?q=prebijem+sa%21+Stefanik&types%5B0%5D=hudba
+                          - text: hudobné cd1365
+                    - generic [ref=e266]:
+                      - checkbox "puzzle (466 titulov)" [ref=e267]
+                      - generic [ref=e268]:
+                        - generic [ref=e269]: puzzle (466 titulov)
+                        - link [ref=e270] [cursor=pointer]:
+                          - /url: /search?q=prebijem+sa%21+Stefanik&types%5B0%5D=puzzle
+                          - text: puzzle466
+                    - generic [ref=e271]:
+                      - checkbox "kávy a čaje (130 titulov)" [ref=e272]
+                      - generic [ref=e273]:
+                        - generic [ref=e274]: kávy a čaje (130 titulov)
+                        - link [ref=e275] [cursor=pointer]:
+                          - /url: /search?q=prebijem+sa%21+Stefanik&types%5B0%5D=gastro
+                          - text: kávy a čaje130
+                  - button "Ďalšie možnosti" [ref=e276] [cursor=pointer]:
+                    - img [ref=e277]
+                    - text: Ďalšie možnosti
+              - generic [ref=e279]:
+                - term [ref=e280]:
+                  - button "Jazyk" [expanded] [ref=e281] [cursor=pointer]:
+                    - text: Jazyk
+                    - img [ref=e282]
+                - definition [ref=e284]:
+                  - group [ref=e286]:
+                    - generic [ref=e287]:
+                      - checkbox "čeština (38569 titulov)" [ref=e288]
+                      - generic [ref=e289]:
+                        - generic [ref=e290]: čeština (38569 titulov)
+                        - link [ref=e291] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=14&q=prebijem+sa%21+Stefanik
+                          - text: čeština38569
+                    - generic [ref=e292]:
+                      - checkbox "slovenčina (21683 titulov)" [ref=e293]
+                      - generic [ref=e294]:
+                        - generic [ref=e295]: slovenčina (21683 titulov)
+                        - link [ref=e296] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=20&q=prebijem+sa%21+Stefanik
+                          - text: slovenčina21683
+                    - generic [ref=e297]:
+                      - checkbox "cudzí jazyk (6868 titulov)" [ref=e298]
+                      - generic [ref=e299]:
+                        - generic [ref=e300]: cudzí jazyk (6868 titulov)
+                        - link [ref=e301] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=400000&q=prebijem+sa%21+Stefanik
+                          - text: cudzí jazyk6868
+                    - generic [ref=e302]:
+                      - checkbox "angličtina (5050 titulov)" [ref=e303]
+                      - generic [ref=e304]:
+                        - generic [ref=e305]: angličtina (5050 titulov)
+                        - link [ref=e306] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=10&q=prebijem+sa%21+Stefanik
+                          - text: angličtina5050
+                    - generic [ref=e307]:
+                      - checkbox "francúzština (703 titulov)" [ref=e308]
+                      - generic [ref=e309]:
+                        - generic [ref=e310]: francúzština (703 titulov)
+                        - link [ref=e311] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=1567&q=prebijem+sa%21+Stefanik
+                          - text: francúzština703
+                    - generic [ref=e312]:
+                      - checkbox "španielčina (581 titulov)" [ref=e313]
+                      - generic [ref=e314]:
+                        - generic [ref=e315]: španielčina (581 titulov)
+                        - link [ref=e316] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=1054&q=prebijem+sa%21+Stefanik
+                          - text: španielčina581
+                    - generic [ref=e317]:
+                      - checkbox "nemčina (543 titulov)" [ref=e318]
+                      - generic [ref=e319]:
+                        - generic [ref=e320]: nemčina (543 titulov)
+                        - link [ref=e321] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=4&q=prebijem+sa%21+Stefanik
+                          - text: nemčina543
+                    - generic [ref=e322]:
+                      - checkbox "maďarčina (383 titulov)" [ref=e323]
+                      - generic [ref=e324]:
+                        - generic [ref=e325]: maďarčina (383 titulov)
+                        - link [ref=e326] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=4827&q=prebijem+sa%21+Stefanik
+                          - text: maďarčina383
+                    - generic [ref=e327]:
+                      - checkbox "poľština (345 titulov)" [ref=e328]
+                      - generic [ref=e329]:
+                        - generic [ref=e330]: poľština (345 titulov)
+                        - link [ref=e331] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=875&q=prebijem+sa%21+Stefanik
+                          - text: poľština345
+                    - generic [ref=e332]:
+                      - checkbox "ruština (233 titulov)" [ref=e333]
+                      - generic [ref=e334]:
+                        - generic [ref=e335]: ruština (233 titulov)
+                        - link [ref=e336] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=4838&q=prebijem+sa%21+Stefanik
+                          - text: ruština233
+                    - generic [ref=e337]:
+                      - checkbox "taliančina (196 titulov)" [ref=e338]
+                      - generic [ref=e339]:
+                        - generic [ref=e340]: taliančina (196 titulov)
+                        - link [ref=e341] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=4836&q=prebijem+sa%21+Stefanik
+                          - text: taliančina196
+                    - generic [ref=e342]:
+                      - checkbox "ukrajinčina (186 titulov)" [ref=e343]
+                      - generic [ref=e344]:
+                        - generic [ref=e345]: ukrajinčina (186 titulov)
+                        - link [ref=e346] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=26404&q=prebijem+sa%21+Stefanik
+                          - text: ukrajinčina186
+                    - generic [ref=e347]:
+                      - checkbox "turečtina (124 titulov)" [ref=e348]
+                      - generic [ref=e349]:
+                        - generic [ref=e350]: turečtina (124 titulov)
+                        - link [ref=e351] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=36057&q=prebijem+sa%21+Stefanik
+                          - text: turečtina124
+                    - generic [ref=e352]:
+                      - checkbox "portugalčina (87 titulov)" [ref=e353]
+                      - generic [ref=e354]:
+                        - generic [ref=e355]: portugalčina (87 titulov)
+                        - link [ref=e356] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=18582&q=prebijem+sa%21+Stefanik
+                          - text: portugalčina87
+                    - generic [ref=e357]:
+                      - checkbox "thajčina (75 titulov)" [ref=e358]
+                      - generic [ref=e359]:
+                        - generic [ref=e360]: thajčina (75 titulov)
+                        - link [ref=e361] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=45585&q=prebijem+sa%21+Stefanik
+                          - text: thajčina75
+                    - generic [ref=e362]:
+                      - checkbox "japončina (41 titulov)" [ref=e363]
+                      - generic [ref=e364]:
+                        - generic [ref=e365]: japončina (41 titulov)
+                        - link [ref=e366] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=29808&q=prebijem+sa%21+Stefanik
+                          - text: japončina41
+                    - generic [ref=e367]:
+                      - checkbox "hindčina (40 titulov)" [ref=e368]
+                      - generic [ref=e369]:
+                        - generic [ref=e370]: hindčina (40 titulov)
+                        - link [ref=e371] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=85234&q=prebijem+sa%21+Stefanik
+                          - text: hindčina40
+                    - generic [ref=e372]:
+                      - checkbox "čínština (19 titulov)" [ref=e373]
+                      - generic [ref=e374]:
+                        - generic [ref=e375]: čínština (19 titulov)
+                        - link [ref=e376] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=24561&q=prebijem+sa%21+Stefanik
+                          - text: čínština19
+                    - generic [ref=e377]:
+                      - checkbox "chorvátčina (16 titulov)" [ref=e378]
+                      - generic [ref=e379]:
+                        - generic [ref=e380]: chorvátčina (16 titulov)
+                        - link [ref=e381] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=6647&q=prebijem+sa%21+Stefanik
+                          - text: chorvátčina16
+                    - generic [ref=e382]:
+                      - checkbox "esperanto (15 titulov)" [ref=e383]
+                      - generic [ref=e384]:
+                        - generic [ref=e385]: esperanto (15 titulov)
+                        - link [ref=e386] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=26455&q=prebijem+sa%21+Stefanik
+                          - text: esperanto15
+                    - generic [ref=e387]:
+                      - checkbox "gréčtina (14 titulov)" [ref=e388]
+                      - generic [ref=e389]:
+                        - generic [ref=e390]: gréčtina (14 titulov)
+                        - link [ref=e391] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=22918&q=prebijem+sa%21+Stefanik
+                          - text: gréčtina14
+                    - generic [ref=e392]:
+                      - checkbox "tamilčina (10 titulov)" [ref=e393]
+                      - generic [ref=e394]:
+                        - generic [ref=e395]: tamilčina (10 titulov)
+                        - link [ref=e396] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=86121&q=prebijem+sa%21+Stefanik
+                          - text: tamilčina10
+                    - generic [ref=e397]:
+                      - checkbox "švédčina (9 titulov)" [ref=e398]
+                      - generic [ref=e399]:
+                        - generic [ref=e400]: švédčina (9 titulov)
+                        - link [ref=e401] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=5937&q=prebijem+sa%21+Stefanik
+                          - text: švédčina9
+                    - generic [ref=e402]:
+                      - checkbox "bulharčina (9 titulov)" [ref=e403]
+                      - generic [ref=e404]:
+                        - generic [ref=e405]: bulharčina (9 titulov)
+                        - link [ref=e406] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=32828&q=prebijem+sa%21+Stefanik
+                          - text: bulharčina9
+                    - generic [ref=e407]:
+                      - checkbox "hebrejčina (9 titulov)" [ref=e408]
+                      - generic [ref=e409]:
+                        - generic [ref=e410]: hebrejčina (9 titulov)
+                        - link [ref=e411] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=34688&q=prebijem+sa%21+Stefanik
+                          - text: hebrejčina9
+                    - generic [ref=e412]:
+                      - checkbox "rumunčina (8 titulov)" [ref=e413]
+                      - generic [ref=e414]:
+                        - generic [ref=e415]: rumunčina (8 titulov)
+                        - link [ref=e416] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=25943&q=prebijem+sa%21+Stefanik
+                          - text: rumunčina8
+                    - generic [ref=e417]:
+                      - checkbox "telugčina (8 titulov)" [ref=e418]
+                      - generic [ref=e419]:
+                        - generic [ref=e420]: telugčina (8 titulov)
+                        - link [ref=e421] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=86122&q=prebijem+sa%21+Stefanik
+                          - text: telugčina8
+                    - generic [ref=e422]:
+                      - checkbox "katalánčina (7 titulov)" [ref=e423]
+                      - generic [ref=e424]:
+                        - generic [ref=e425]: katalánčina (7 titulov)
+                        - link [ref=e426] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=35153&q=prebijem+sa%21+Stefanik
+                          - text: katalánčina7
+                    - generic [ref=e427]:
+                      - checkbox "latinčina (6 titulov)" [ref=e428]
+                      - generic [ref=e429]:
+                        - generic [ref=e430]: latinčina (6 titulov)
+                        - link [ref=e431] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=5298&q=prebijem+sa%21+Stefanik
+                          - text: latinčina6
+                    - generic [ref=e432]:
+                      - checkbox "fínčina (6 titulov)" [ref=e433]
+                      - generic [ref=e434]:
+                        - generic [ref=e435]: fínčina (6 titulov)
+                        - link [ref=e436] [cursor=pointer]:
+                          - /url: /search?languages%5B0%5D=20337&q=prebijem+sa%21+Stefanik
+                          - text: fínčina6
+                  - button "Ďalšie možnosti" [ref=e437] [cursor=pointer]:
+                    - img [ref=e438]
+                    - text: Ďalšie možnosti
+              - term [ref=e441]:
+                - button "Téma" [ref=e442] [cursor=pointer]:
+                  - text: Téma
+                  - img [ref=e443]
+              - term [ref=e446]:
+                - button "Pre koho" [ref=e447] [cursor=pointer]:
+                  - text: Pre koho
+                  - img [ref=e448]
+              - term [ref=e451]:
+                - button "Autor" [ref=e452] [cursor=pointer]:
+                  - text: Autor
+                  - img [ref=e453]
+              - generic [ref=e455]:
+                - term [ref=e456]:
+                  - button "Krajina pôvodu" [expanded] [ref=e457] [cursor=pointer]:
+                    - text: Krajina pôvodu
+                    - img [ref=e458]
+                - definition [ref=e460]:
+                  - group [ref=e462]:
+                    - generic [ref=e463]:
+                      - checkbox "Kolumbia (11 titulov)" [ref=e464]
+                      - generic [ref=e465]:
+                        - generic [ref=e466]: Kolumbia (11 titulov)
+                        - link [ref=e467] [cursor=pointer]:
+                          - /url: /search?product_origins%5B0%5D=365167&q=prebijem+sa%21+Stefanik
+                          - text: Kolumbia11
+                    - generic [ref=e468]:
+                      - checkbox "Brazília (5 titulov)" [ref=e469]
+                      - generic [ref=e470]:
+                        - generic [ref=e471]: Brazília (5 titulov)
+                        - link [ref=e472] [cursor=pointer]:
+                          - /url: /search?product_origins%5B0%5D=365171&q=prebijem+sa%21+Stefanik
+                          - text: Brazília5
+                    - generic [ref=e473]:
+                      - checkbox "Peru (4 tituly)" [ref=e474]
+                      - generic [ref=e475]:
+                        - generic [ref=e476]: Peru (4 tituly)
+                        - link [ref=e477] [cursor=pointer]:
+                          - /url: /search?product_origins%5B0%5D=365165&q=prebijem+sa%21+Stefanik
+                          - text: Peru4
+                    - generic [ref=e478]:
+                      - checkbox "Uganda (4 tituly)" [ref=e479]
+                      - generic [ref=e480]:
+                        - generic [ref=e481]: Uganda (4 tituly)
+                        - link [ref=e482] [cursor=pointer]:
+                          - /url: /search?product_origins%5B0%5D=370657&q=prebijem+sa%21+Stefanik
+                          - text: Uganda4
+                    - generic [ref=e483]:
+                      - checkbox "Etiópia (3 tituly)" [ref=e484]
+                      - generic [ref=e485]:
+                        - generic [ref=e486]: Etiópia (3 tituly)
+                        - link [ref=e487] [cursor=pointer]:
+                          - /url: /search?product_origins%5B0%5D=365173&q=prebijem+sa%21+Stefanik
+                          - text: Etiópia3
+                    - generic [ref=e488]:
+                      - checkbox "Keňa (3 tituly)" [ref=e489]
+                      - generic [ref=e490]:
+                        - generic [ref=e491]: Keňa (3 tituly)
+                        - link [ref=e492] [cursor=pointer]:
+                          - /url: /search?product_origins%5B0%5D=365191&q=prebijem+sa%21+Stefanik
+                          - text: Keňa3
+                    - generic [ref=e493]:
+                      - checkbox "Costa Rica (3 tituly)" [ref=e494]
+                      - generic [ref=e495]:
+                        - generic [ref=e496]: Costa Rica (3 tituly)
+                        - link [ref=e497] [cursor=pointer]:
+                          - /url: /search?product_origins%5B0%5D=365195&q=prebijem+sa%21+Stefanik
+                          - text: Costa Rica3
+                    - generic [ref=e498]:
+                      - checkbox "Guatemala (2 tituly)" [ref=e499]
+                      - generic [ref=e500]:
+                        - generic [ref=e501]: Guatemala (2 tituly)
+                        - link [ref=e502] [cursor=pointer]:
+                          - /url: /search?product_origins%5B0%5D=365163&q=prebijem+sa%21+Stefanik
+                          - text: Guatemala2
+                    - generic [ref=e503]:
+                      - checkbox "Kuba (2 tituly)" [ref=e504]
+                      - generic [ref=e505]:
+                        - generic [ref=e506]: Kuba (2 tituly)
+                        - link [ref=e507] [cursor=pointer]:
+                          - /url: /search?product_origins%5B0%5D=365225&q=prebijem+sa%21+Stefanik
+                          - text: Kuba2
+                    - generic [ref=e508]:
+                      - checkbox "Etíopia (2 tituly)" [ref=e509]
+                      - generic [ref=e510]:
+                        - generic [ref=e511]: Etíopia (2 tituly)
+                        - link [ref=e512] [cursor=pointer]:
+                          - /url: /search?product_origins%5B0%5D=365227&q=prebijem+sa%21+Stefanik
+                          - text: Etíopia2
+                    - generic [ref=e513]:
+                      - checkbox "Tanzánia (1 titul)" [ref=e514]
+                      - generic [ref=e515]:
+                        - generic [ref=e516]: Tanzánia (1 titul)
+                        - link [ref=e517] [cursor=pointer]:
+                          - /url: /search?product_origins%5B0%5D=365161&q=prebijem+sa%21+Stefanik
+                          - text: Tanzánia1
+                    - generic [ref=e518]:
+                      - checkbox "Mexiko (1 titul)" [ref=e519]
+                      - generic [ref=e520]:
+                        - generic [ref=e521]: Mexiko (1 titul)
+                        - link [ref=e522] [cursor=pointer]:
+                          - /url: /search?product_origins%5B0%5D=365169&q=prebijem+sa%21+Stefanik
+                          - text: Mexiko1
+                    - generic [ref=e523]:
+                      - checkbox "Indonézia (1 titul)" [ref=e524]
+                      - generic [ref=e525]:
+                        - generic [ref=e526]: Indonézia (1 titul)
+                        - link [ref=e527] [cursor=pointer]:
+                          - /url: /search?product_origins%5B0%5D=365175&q=prebijem+sa%21+Stefanik
+                          - text: Indonézia1
+                    - generic [ref=e528]:
+                      - checkbox "India (1 titul)" [ref=e529]
+                      - generic [ref=e530]:
+                        - generic [ref=e531]: India (1 titul)
+                        - link [ref=e532] [cursor=pointer]:
+                          - /url: /search?product_origins%5B0%5D=365217&q=prebijem+sa%21+Stefanik
+                          - text: India1
+                    - generic [ref=e533]:
+                      - checkbox "Salvador (1 titul)" [ref=e534]
+                      - generic [ref=e535]:
+                        - generic [ref=e536]: Salvador (1 titul)
+                        - link [ref=e537] [cursor=pointer]:
+                          - /url: /search?product_origins%5B0%5D=379775&q=prebijem+sa%21+Stefanik
+                          - text: Salvador1
+                    - generic [ref=e538]:
+                      - checkbox "Vietnam (1 titul)" [ref=e539]
+                      - generic [ref=e540]:
+                        - generic [ref=e541]: Vietnam (1 titul)
+                        - link [ref=e542] [cursor=pointer]:
+                          - /url: /search?product_origins%5B0%5D=529599&q=prebijem+sa%21+Stefanik
+                          - text: Vietnam1
+                    - generic [ref=e543]:
+                      - checkbox "Nikaragua (1 titul)" [ref=e544]
+                      - generic [ref=e545]:
+                        - generic [ref=e546]: Nikaragua (1 titul)
+                        - link [ref=e547] [cursor=pointer]:
+                          - /url: /search?product_origins%5B0%5D=1572527&q=prebijem+sa%21+Stefanik
+                          - text: Nikaragua1
+                    - generic [ref=e548]:
+                      - checkbox "Čína (1 titul)" [ref=e549]
+                      - generic [ref=e550]:
+                        - generic [ref=e551]: Čína (1 titul)
+                        - link [ref=e552] [cursor=pointer]:
+                          - /url: /search?product_origins%5B0%5D=1774591&q=prebijem+sa%21+Stefanik
+                          - text: Čína1
+                  - button "Ďalšie možnosti" [ref=e553] [cursor=pointer]:
+                    - img [ref=e554]
+                    - text: Ďalšie možnosti
+              - term [ref=e557]:
+                - button "Séria" [ref=e558] [cursor=pointer]:
+                  - text: Séria
+                  - img [ref=e559]
+              - term [ref=e562]:
+                - button "Edícia" [ref=e563] [cursor=pointer]:
+                  - text: Edícia
+                  - img [ref=e564]
+        - generic [ref=e566]:
+          - list "Zoradiť podľa" [ref=e569]:
+            - listitem [ref=e570]:
+              - link "Odporúčame" [ref=e571] [cursor=pointer]:
+                - /url: /search?q=prebijem+sa%21+Stefanik
+                - img
+            - listitem [ref=e572]:
+              - link "Bestsellery" [ref=e573] [cursor=pointer]:
+                - /url: /search?q=prebijem+sa%21+Stefanik&sort=sold+desc
+            - listitem [ref=e574]:
+              - link "Top hodnotené" [ref=e575] [cursor=pointer]:
+                - /url: /search?q=prebijem+sa%21+Stefanik&sort=rating+desc&specials%5B0%5D=available
+            - listitem [ref=e576]:
+              - link "Novinky" [ref=e577] [cursor=pointer]:
+                - /url: /search?q=prebijem+sa%21+Stefanik&sort=release_date+desc&specials%5B0%5D=available
+            - listitem [ref=e578]:
+              - link "Najdrahšie" [ref=e579] [cursor=pointer]:
+                - /url: /search?q=prebijem+sa%21+Stefanik&sort=price+desc&specials%5B0%5D=available
+            - listitem [ref=e580]:
+              - link "Najlacnejšie" [ref=e581] [cursor=pointer]:
+                - /url: /search?q=prebijem+sa%21+Stefanik&sort=price+asc&specials%5B0%5D=available
+            - listitem [ref=e582]:
+              - link "Najvyššia zľava" [ref=e583] [cursor=pointer]:
+                - /url: /search?q=prebijem+sa%21+Stefanik&sort=discount+desc&specials%5B0%5D=available
+            - listitem [ref=e584]
+          - generic [ref=e586]:
+            - generic [ref=e587]:
+              - generic [ref=e588]:
+                - 'link "Kniha: Prebijem sa! Štefánik (Jozef Banáš)" [ref=e589] [cursor=pointer]':
+                  - /url: /962605-prebijem-sa-stefanik/kniha
+                  - 'img "Kniha: Prebijem sa! Štefánik (Jozef Banáš)" [ref=e590]'
+                - generic [ref=e591]:
+                  - img [ref=e592]
+                  - img [ref=e594]
+                  - img [ref=e596]
+                  - img [ref=e598]
+                  - img [ref=e600]
+              - generic [ref=e602]:
+                - generic [ref=e603]:
+                  - link "Prebijem sa! Štefánik" [ref=e604] [cursor=pointer]:
+                    - /url: /962605-prebijem-sa-stefanik/kniha
+                  - generic [ref=e605] [cursor=pointer]: Muž železnej vôle
+                - list "Jozef Banáš" [ref=e607]:
+                  - listitem [ref=e608]:
+                    - link "Jozef Banáš" [ref=e609] [cursor=pointer]:
+                      - /url: /authors/jozef-banas
+                - paragraph [ref=e610]: Po takmer sto rokoch vychádza komplexný román o Milanovi Rastislavovi Štefánikovi. Jozef Banáš sa v obsažnom diele pokúša odhaliť najväčšie tajomstvá spojené so Štefánikom a jeho dobou...
+                - list [ref=e611]:
+                  - listitem [ref=e612]:
+                    - generic [ref=e613]:
+                      - link "Kniha" [ref=e614] [cursor=pointer]:
+                        - /url: /962605-prebijem-sa-stefanik/kniha
+                        - img [ref=e615]
+                        - text: Kniha
+                      - text: pevná väzba
+                    - generic [ref=e617]:
+                      - generic [ref=e618]:
+                        - generic [ref=e619]:
+                          - text: 16,00 €
+                          - generic [ref=e620]: "-12 %"
+                        - button "Na sklade 2 ks" [disabled] [ref=e623]:
+                          - emphasis [ref=e624]: Na sklade 2 ks
+                      - generic [ref=e625]:
+                        - link "Pridať do zoznamu" [ref=e628] [cursor=pointer]:
+                          - /url: /login?redirect=%2F962605-prebijem-sa-stefanik%2Fkniha&source=customer_catalog
+                          - img [ref=e629]
+                          - generic [ref=e631]: Pridať do zoznamu
+                        - button "Vložiť do košíka" [ref=e634] [cursor=pointer]:
+                          - img [ref=e635]
+                          - generic [ref=e637]: Vložiť do košíka
+                  - listitem [ref=e638]:
+                    - generic [ref=e639]:
+                      - link "E-kniha" [ref=e640] [cursor=pointer]:
+                        - /url: /962605-prebijem-sa-stefanik/e-kniha
+                        - img [ref=e641]
+                        - text: E-kniha
+                      - button "EPUB" [ref=e643]
+                      - button "MOBI" [ref=e644]
+                    - generic [ref=e645]:
+                      - generic [ref=e646]:
+                        - generic [ref=e647]: 12,90 €
+                        - button "Ihneď na stiahnutie" [disabled] [ref=e650]:
+                          - emphasis [ref=e651]: Ihneď na stiahnutie
+                      - generic [ref=e652]:
+                        - link "Pridať do zoznamu" [ref=e655] [cursor=pointer]:
+                          - /url: /login?redirect=%2F962605-prebijem-sa-stefanik%2Fe-kniha&source=customer_catalog
+                          - img [ref=e656]
+                          - generic [ref=e658]: Pridať do zoznamu
+                        - button "Vložiť do košíka" [ref=e661] [cursor=pointer]:
+                          - img [ref=e662]
+                          - generic [ref=e664]: Vložiť do košíka
+                - button "Ďalšie formáty" [ref=e665] [cursor=pointer]:
+                  - img [ref=e666]
+                  - generic [ref=e668]:
+                    - text: Ďalšie formáty
+                    - img [ref=e669]
+                    - img [ref=e671]
+            - generic [ref=e673]:
+              - 'link "Kniha: Prebijem sa! Štefánik – Muž železnej vôle (J. Banáš)" [ref=e675] [cursor=pointer]':
+                - /url: /3563061-prebijem-sa-stefanik-muz-zeleznej-vole/kniha
+                - 'img "Kniha: Prebijem sa! Štefánik – Muž železnej vôle (J. Banáš)" [ref=e676]'
+              - generic [ref=e677]:
+                - link "Prebijem sa! Štefánik – Muž železnej vôle" [ref=e679] [cursor=pointer]:
+                  - /url: /3563061-prebijem-sa-stefanik-muz-zeleznej-vole/kniha
+                - list "J. Banáš" [ref=e681]:
+                  - listitem [ref=e682]:
+                    - link "J. Banáš" [ref=e683] [cursor=pointer]:
+                      - /url: /authors/j-banas
+                - list [ref=e684]:
+                  - listitem [ref=e685]:
+                    - link "Kniha" [ref=e687] [cursor=pointer]:
+                      - /url: /3563061-prebijem-sa-stefanik-muz-zeleznej-vole/kniha
+                      - img [ref=e688]
+                      - text: Kniha
+                    - generic [ref=e690]:
+                      - button "Vypredané" [disabled] [ref=e694]:
+                        - emphasis [ref=e695]: Vypredané
+                      - link "Pridať do zoznamu" [ref=e699] [cursor=pointer]:
+                        - /url: /login?redirect=%2F3563061-prebijem-sa-stefanik-muz-zeleznej-vole%2Fkniha&source=customer_catalog
+                        - img [ref=e700]
+                        - generic [ref=e702]: Pridať do zoznamu
+            - separator [ref=e703]
+            - generic [ref=e704]:
+              - 'link "Kniha: Štefánik (Gabriela Kyselová, Michal Baláž a Václav Šlajch)" [ref=e706] [cursor=pointer]':
+                - /url: /1261911-stefanik/kniha
+                - 'img "Kniha: Štefánik (Gabriela Kyselová, Michal Baláž a Václav Šlajch)" [ref=e707]'
+              - generic [ref=e708]:
+                - generic [ref=e709]:
+                  - link "Štefánik" [ref=e710] [cursor=pointer]:
+                    - /url: /1261911-stefanik/kniha
+                  - generic [ref=e711] [cursor=pointer]: Komiksový román
+                - list "Gabriela Kyselová, Michal Baláž a Václav Šlajch" [ref=e713]:
+                  - listitem [ref=e714]:
+                    - link "Gabriela Kyselová" [ref=e715] [cursor=pointer]:
+                      - /url: /authors/gabriela-kyselova
+                    - text: ","
+                  - listitem [ref=e716]:
+                    - link "Michal Baláž" [ref=e717] [cursor=pointer]:
+                      - /url: /authors/michal-balaz
+                    - text: a
+                  - listitem [ref=e718]:
+                    - link "Václav Šlajch" [ref=e719] [cursor=pointer]:
+                      - /url: /authors/vaclav-slajch
+                - paragraph [ref=e720]: Komiksový román o mužovi mnohých tvárí. Ktorá z nich je tá pravá? Všetky alebo žiadna? Muž veľkých gest a malicherných slabostí. Zábavný, spoločenský, osamelý, ambiciózny, nepochopený. Karierista, zvodca, fanfarón aj...
+                - list [ref=e721]:
+                  - listitem [ref=e722]:
+                    - generic [ref=e723]:
+                      - link "Kniha" [ref=e724] [cursor=pointer]:
+                        - /url: /1261911-stefanik/kniha
+                        - img [ref=e725]
+                        - text: Kniha
+                      - text: pevná väzba
+                    - generic [ref=e727]:
+                      - generic [ref=e728]:
+                        - generic [ref=e729]: 17,10 €
+                        - button "Na sklade 2 ks" [disabled] [ref=e732]:
+                          - emphasis [ref=e733]: Na sklade 2 ks
+                      - generic [ref=e734]:
+                        - link "Pridať do zoznamu" [ref=e737] [cursor=pointer]:
+                          - /url: /login?redirect=%2F1261911-stefanik%2Fkniha&source=customer_catalog
+                          - img [ref=e738]
+                          - generic [ref=e740]: Pridať do zoznamu
+                        - button "Vložiť do košíka" [ref=e743] [cursor=pointer]:
+                          - img [ref=e744]
+                          - generic [ref=e746]: Vložiť do košíka
+            - generic [ref=e747]:
+              - generic [ref=e748]:
+                - 'link "Kniha: Milan Rastislav Štefánik (Michal Kšiňan) Kniha: Milan Rastislav Štefánik (Michal Kšiňan)" [ref=e749] [cursor=pointer]':
+                  - /url: /459945-milan-rastislav-stefanik/kniha
+                  - 'img "Kniha: Milan Rastislav Štefánik (Michal Kšiňan)" [ref=e750]'
+                  - 'img "Kniha: Milan Rastislav Štefánik (Michal Kšiňan)" [ref=e752]'
+                - generic [ref=e753]:
+                  - img [ref=e754]
+                  - img [ref=e756]
+                  - img [ref=e758]
+                  - img [ref=e760]
+                  - img [ref=e762]
+              - generic [ref=e766]:
+                - generic [ref=e767]:
+                  - link "Milan Rastislav Štefánik" [ref=e768] [cursor=pointer]:
+                    - /url: /459945-milan-rastislav-stefanik/kniha
+                  - generic [ref=e769] [cursor=pointer]: Muž, ktorý sa rozprával s hviezdami
+                - list "Michal Kšiňan" [ref=e771]:
+                  - listitem [ref=e772]:
+                    - link "Michal Kšiňan" [ref=e773] [cursor=pointer]:
+                      - /url: /authors/michal-ksinan
+                - paragraph [ref=e774]: Kniha Milan Rastislav Štefánik – Muž, ktorý sa rozprával s hviezdami je prvá vedecká biografia tejto významnej osobnosti slovenských dejín. Historik Michal Kšiňan v nej pútavo približuje Štefánikov život na základe...
+                - list [ref=e775]:
+                  - listitem [ref=e776]:
+                    - generic [ref=e777]:
+                      - link "Kniha" [ref=e778] [cursor=pointer]:
+                        - /url: /459945-milan-rastislav-stefanik/kniha
+                        - img [ref=e779]
+                        - text: Kniha
+                      - text: pevná väzba s prebalom
+                    - generic [ref=e781]:
+                      - generic [ref=e782]:
+                        - generic [ref=e783]: 17,20 €
+                        - button "Na sklade > 5 ks" [disabled] [ref=e786]:
+                          - emphasis [ref=e787]: Na sklade > 5 ks
+                      - generic [ref=e788]:
+                        - link "Pridať do zoznamu" [ref=e791] [cursor=pointer]:
+                          - /url: /login?redirect=%2F459945-milan-rastislav-stefanik%2Fkniha&source=customer_catalog
+                          - img [ref=e792]
+                          - generic [ref=e794]: Pridať do zoznamu
+                        - button "Vložiť do košíka" [ref=e797] [cursor=pointer]:
+                          - img [ref=e798]
+                          - generic [ref=e800]: Vložiť do košíka
+                  - listitem [ref=e801]:
+                    - generic [ref=e802]:
+                      - link "Čítaná" [ref=e803] [cursor=pointer]:
+                        - /url: /459945-milan-rastislav-stefanik/citana
+                        - img [ref=e804]
+                        - text: Čítaná
+                      - button "mierne opotrebovaná" [disabled] [ref=e806]
+                    - generic [ref=e807]:
+                      - generic [ref=e808]:
+                        - generic [ref=e809]: 17,89 €
+                        - button "Na sklade" [disabled] [ref=e812]:
+                          - emphasis [ref=e813]: Na sklade
+                      - button "Vložiť do košíka" [ref=e817] [cursor=pointer]:
+                        - img [ref=e818]
+                        - generic [ref=e820]: Vložiť do košíka
+            - separator [ref=e821]
+            - generic [ref=e822]:
+              - generic [ref=e823]:
+                - 'link "Kniha: Prorazím! Štefánik (Jozef Banáš)" [ref=e824] [cursor=pointer]':
+                  - /url: /1138771-prorazim-stefanik/kniha
+                  - 'img "Kniha: Prorazím! Štefánik (Jozef Banáš)" [ref=e825]'
+                - generic [ref=e826]:
+                  - img [ref=e827]
+                  - img [ref=e829]
+                  - img [ref=e831]
+                  - img [ref=e833]
+                  - img [ref=e835]
+              - generic [ref=e837]:
+                - generic [ref=e838]:
+                  - link "Prorazím! Štefánik" [ref=e839] [cursor=pointer]:
+                    - /url: /1138771-prorazim-stefanik/kniha
+                  - text: CZ
+                  - generic [ref=e840] [cursor=pointer]: Muž železné vůle
+                - list "Jozef Banáš" [ref=e842]:
+                  - listitem [ref=e843]:
+                    - link "Jozef Banáš" [ref=e844] [cursor=pointer]:
+                      - /url: /authors/jozef-banas
+                - paragraph [ref=e845]: Štefánik byl velikán nejen pro Slováky, ale i pro Čechy a Francouze. Patří do prvých řad Slováků, kteří si zaslouží náš obdiv. Virtuóz života i smrti, skvostný příklad muže v každém činu překonávajícího sebe samého. Vždy šel za svým snem, navzdory...
+                - list [ref=e846]:
+                  - listitem [ref=e847]:
+                    - generic [ref=e848]:
+                      - link "Kniha" [ref=e849] [cursor=pointer]:
+                        - /url: /1138771-prorazim-stefanik/kniha
+                        - img [ref=e850]
+                        - text: Kniha
+                      - text: pevná väzba s prebalom
+                    - generic [ref=e852]:
+                      - button "Vypredané" [disabled] [ref=e856]:
+                        - emphasis [ref=e857]: Vypredané
+                      - link "Pridať do zoznamu" [ref=e861] [cursor=pointer]:
+                        - /url: /login?redirect=%2F1138771-prorazim-stefanik%2Fkniha&source=customer_catalog
+                        - img [ref=e862]
+                        - generic [ref=e864]: Pridať do zoznamu
+            - generic [ref=e865]:
+              - 'link "Kniha: Štefánik (Gabriela Kyselová a Michal Baláž)" [ref=e867] [cursor=pointer]':
+                - /url: /1284521-stefanik/kniha
+                - 'img "Kniha: Štefánik (Gabriela Kyselová a Michal Baláž)" [ref=e868]'
+              - generic [ref=e869]:
+                - generic [ref=e870]:
+                  - link "Štefánik" [ref=e871] [cursor=pointer]:
+                    - /url: /1284521-stefanik/kniha
+                  - text: CZ
+                  - generic [ref=e872] [cursor=pointer]: Komiksový román
+                - list "Gabriela Kyselová a Michal Baláž" [ref=e874]:
+                  - listitem [ref=e875]:
+                    - link "Gabriela Kyselová" [ref=e876] [cursor=pointer]:
+                      - /url: /authors/gabriela-kyselova
+                    - text: a
+                  - listitem [ref=e877]:
+                    - link "Michal Baláž" [ref=e878] [cursor=pointer]:
+                      - /url: /authors/michal-balaz
+                - paragraph [ref=e879]: Komiksový román o muži mnoha tváří. Která z?nich je ta pravá? Všechny, nebo žádná? Muž velkých gest a malicherných slabostí. Zábavný, společenský, osamělý, ambiciózní, nepochopený. Kariérista, svůdce, fanfarón i Don Quijote...
+                - list [ref=e880]:
+                  - listitem [ref=e881]:
+                    - generic [ref=e882]:
+                      - link "Kniha" [ref=e883] [cursor=pointer]:
+                        - /url: /1284521-stefanik/kniha
+                        - img [ref=e884]
+                        - text: Kniha
+                      - text: pevná väzba
+                    - generic [ref=e886]:
+                      - generic [ref=e887]:
+                        - generic [ref=e888]: 23,27 €
+                        - button "Do 4 – 9 dní" [disabled] [ref=e891]:
+                          - emphasis [ref=e892]: Do 4 – 9 dní
+                      - generic [ref=e893]:
+                        - link "Pridať do zoznamu" [ref=e896] [cursor=pointer]:
+                          - /url: /login?redirect=%2F1284521-stefanik%2Fkniha&source=customer_catalog
+                          - img [ref=e897]
+                          - generic [ref=e899]: Pridať do zoznamu
+                        - button "Vložiť do košíka" [ref=e902] [cursor=pointer]:
+                          - img [ref=e903]
+                          - generic [ref=e905]: Vložiť do košíka
+            - separator [ref=e906]
+            - generic [ref=e907]:
+              - generic [ref=e908]:
+                - 'link "Kniha: Generál M.R. Štefánik (Mariana Čengel Solčanská)" [ref=e909] [cursor=pointer]':
+                  - /url: /765059-general-m-r-stefanik/kniha
+                  - 'img "Kniha: Generál M.R. Štefánik (Mariana Čengel Solčanská)" [ref=e910]'
+                - generic [ref=e911]:
+                  - img [ref=e912]
+                  - img [ref=e914]
+                  - img [ref=e916]
+                  - img [ref=e918]
+                  - img [ref=e922]
+              - generic [ref=e924]:
+                - link "Generál M.R. Štefánik" [ref=e926] [cursor=pointer]:
+                  - /url: /765059-general-m-r-stefanik/kniha
+                - list "Mariana Čengel Solčanská" [ref=e928]:
+                  - listitem [ref=e929]:
+                    - link "Mariana Čengel Solčanská" [ref=e930] [cursor=pointer]:
+                      - /url: /authors/mariana-cengel-solcanska-1
+                - paragraph [ref=e931]: Prvá svetová vojna priniesla Európe hrôzu, akú si predtým nik nedokázal predstaviť. Rakúsko-Uhorsko mobilizovalo mužov všetkých svojich národností a nútilo ich položiť život za cisára, ku ktorému necítili úctu, a za krajinu...
+                - list [ref=e932]:
+                  - listitem [ref=e933]:
+                    - generic [ref=e934]:
+                      - link "Kniha" [ref=e935] [cursor=pointer]:
+                        - /url: /765059-general-m-r-stefanik/kniha
+                        - img [ref=e936]
+                        - text: Kniha
+                      - text: pevná väzba
+                    - generic [ref=e938]:
+                      - generic [ref=e939]:
+                        - generic [ref=e940]: 12,30 €
+                        - button "Na sklade 1 ks" [disabled] [ref=e943]:
+                          - emphasis [ref=e944]: Na sklade 1 ks
+                      - generic [ref=e945]:
+                        - link "Pridať do zoznamu" [ref=e948] [cursor=pointer]:
+                          - /url: /login?redirect=%2F765059-general-m-r-stefanik%2Fkniha&source=customer_catalog
+                          - img [ref=e949]
+                          - generic [ref=e951]: Pridať do zoznamu
+                        - button "Vložiť do košíka" [ref=e954] [cursor=pointer]:
+                          - img [ref=e955]
+                          - generic [ref=e957]: Vložiť do košíka
+                  - listitem [ref=e958]:
+                    - generic [ref=e959]:
+                      - link "E-kniha" [ref=e960] [cursor=pointer]:
+                        - /url: /765059-general-m-r-stefanik/e-kniha
+                        - img [ref=e961]
+                        - text: E-kniha
+                      - button "EPUB" [ref=e963]
+                      - button "MOBI" [ref=e964]
+                    - generic [ref=e965]:
+                      - generic [ref=e966]:
+                        - generic [ref=e967]: 8,40 €
+                        - button "Ihneď na stiahnutie" [disabled] [ref=e970]:
+                          - emphasis [ref=e971]: Ihneď na stiahnutie
+                      - generic [ref=e972]:
+                        - link "Pridať do zoznamu" [ref=e975] [cursor=pointer]:
+                          - /url: /login?redirect=%2F765059-general-m-r-stefanik%2Fe-kniha&source=customer_catalog
+                          - img [ref=e976]
+                          - generic [ref=e978]: Pridať do zoznamu
+                        - button "Vložiť do košíka" [ref=e981] [cursor=pointer]:
+                          - img [ref=e982]
+                          - generic [ref=e984]: Vložiť do košíka
+                - button "Ďalšie formáty" [ref=e985] [cursor=pointer]:
+                  - img [ref=e986]
+                  - generic [ref=e988]:
+                    - text: Ďalšie formáty
+                    - img [ref=e989]
+            - generic [ref=e991]:
+              - generic [ref=e992]:
+                - 'link "Kniha: Bezprsté mesto (Ondrej Štefánik)" [ref=e993] [cursor=pointer]':
+                  - /url: /461333-bezprste-mesto/kniha
+                  - 'img "Kniha: Bezprsté mesto (Ondrej Štefánik)" [ref=e994]'
+                - generic [ref=e995]:
+                  - img [ref=e996]
+                  - img [ref=e998]
+                  - img [ref=e1000]
+                  - img [ref=e1002]
+                  - img [ref=e1006]
+              - generic [ref=e1008]:
+                - generic [ref=e1009]:
+                  - link "Bezprsté mesto" [ref=e1010] [cursor=pointer]:
+                    - /url: /461333-bezprste-mesto/kniha
+                  - generic [ref=e1011] [cursor=pointer]: Aby sa sám nestratil, musí hľadať vraha
+                - list "Ondrej Štefánik" [ref=e1013]:
+                  - listitem [ref=e1014]:
+                    - link "Ondrej Štefánik" [ref=e1015] [cursor=pointer]:
+                      - /url: /authors/ondrej-stefanik
+                - paragraph [ref=e1016]: Bezprsté mesto je súčasný mestský román s detektívnou zápletkou. Hlavný hrdina Edo si úzkostlivo stráži svoju osobnú slobodu a takzvaný blahobyt, pričom ignoruje nároky doby...
+                - list [ref=e1017]:
+                  - listitem [ref=e1018]:
+                    - generic [ref=e1019]:
+                      - link "Kniha" [ref=e1020] [cursor=pointer]:
+                        - /url: /461333-bezprste-mesto/kniha
+                        - img [ref=e1021]
+                        - text: Kniha
+                      - text: pevná väzba s prebalom
+                    - generic [ref=e1023]:
+                      - generic [ref=e1024]:
+                        - generic [ref=e1025]: 12,50 €
+                        - button "Na sklade 1 ks" [disabled] [ref=e1028]:
+                          - emphasis [ref=e1029]: Na sklade 1 ks
+                      - generic [ref=e1030]:
+                        - link "Pridať do zoznamu" [ref=e1033] [cursor=pointer]:
+                          - /url: /login?redirect=%2F461333-bezprste-mesto%2Fkniha&source=customer_catalog
+                          - img [ref=e1034]
+                          - generic [ref=e1036]: Pridať do zoznamu
+                        - button "Vložiť do košíka" [ref=e1039] [cursor=pointer]:
+                          - img [ref=e1040]
+                          - generic [ref=e1042]: Vložiť do košíka
+                  - listitem [ref=e1043]:
+                    - generic [ref=e1044]:
+                      - link "E-kniha" [ref=e1045] [cursor=pointer]:
+                        - /url: /461333-bezprste-mesto/e-kniha
+                        - img [ref=e1046]
+                        - text: E-kniha
+                      - button "EPUB" [ref=e1048]
+                      - button "MOBI" [ref=e1049]
+                    - generic [ref=e1050]:
+                      - generic [ref=e1051]:
+                        - generic [ref=e1052]: 9,90 €
+                        - button "Predaj skončil" [disabled] [ref=e1055]:
+                          - emphasis [ref=e1056]: Predaj skončil
+                      - link "Pridať do zoznamu" [ref=e1060] [cursor=pointer]:
+                        - /url: /login?redirect=%2F461333-bezprste-mesto%2Fe-kniha&source=customer_catalog
+                        - img [ref=e1061]
+                        - generic [ref=e1063]: Pridať do zoznamu
+                - button "Ďalšie formáty" [ref=e1064] [cursor=pointer]:
+                  - img [ref=e1065]
+                  - generic [ref=e1067]:
+                    - text: Ďalšie formáty
+                    - img [ref=e1068]
+            - generic [ref=e1073]:
+              - img [ref=e1075]
+              - generic [ref=e1077]:
+                - heading "Nenašli ste titul, ktorý ste hľadali?" [level=2] [ref=e1078]
+                - paragraph [ref=e1079]:
+                  - link "Napíšte nám" [ref=e1080] [cursor=pointer]:
+                    - /url: "mailto:knihy@martinus.sk?subject=Mám záujem o titul, ktorý nemáte v ponuke&body=Dobrý deň do Martinusu,%0D%0A\nmám záujem o titul, ktorý zatiaľ nemáte v ponuke.\n%0D%0A%0D%0A\nNázov titulu: _______________\n%0D%0A%0D%0A\nAutor/ka: _______________\n%0D%0A%0D%0A\nĎalšie informácie: _______________\n%0D%0A%0D%0A\nĎakujem!%0D%0A\n(vaše meno)"
+                  - text: a my sa ho pokúsime zohnať
+            - generic [ref=e1081]:
+              - 'link "Kniha: Siroty (Ondrej Štefánik)" [ref=e1083] [cursor=pointer]':
+                - /url: /940227-siroty/kniha
+                - 'img "Kniha: Siroty (Ondrej Štefánik)" [ref=e1084]'
+              - generic [ref=e1085]:
+                - link "Siroty" [ref=e1087] [cursor=pointer]:
+                  - /url: /940227-siroty/kniha
+                - list "Ondrej Štefánik" [ref=e1089]:
+                  - listitem [ref=e1090]:
+                    - link "Ondrej Štefánik" [ref=e1091] [cursor=pointer]:
+                      - /url: /authors/ondrej-stefanik
+                - paragraph [ref=e1092]: Učiteľ dejepisu na bratislavskom gymnáziu, ktorý prišiel v detstve o rodičov, sa ocitá v bizarnom svete novodobých sirôt, z ktorých každá vyjadruje svoju osamelosť osobitým spôsobom. Doposiaľ prednášal študentom udalosti...
+                - list [ref=e1093]:
+                  - listitem [ref=e1094]:
+                    - generic [ref=e1095]:
+                      - link "Kniha" [ref=e1096] [cursor=pointer]:
+                        - /url: /940227-siroty/kniha
+                        - img [ref=e1097]
+                        - text: Kniha
+                      - text: pevná väzba
+                    - generic [ref=e1099]:
+                      - generic [ref=e1100]:
+                        - generic [ref=e1101]: 14,90 €
+                        - button "Na sklade > 5 ks" [disabled] [ref=e1104]:
+                          - emphasis [ref=e1105]: Na sklade > 5 ks
+                      - generic [ref=e1106]:
+                        - link "Pridať do zoznamu" [ref=e1109] [cursor=pointer]:
+                          - /url: /login?redirect=%2F940227-siroty%2Fkniha&source=customer_catalog
+                          - img [ref=e1110]
+                          - generic [ref=e1112]: Pridať do zoznamu
+                        - button "Vložiť do košíka" [ref=e1115] [cursor=pointer]:
+                          - img [ref=e1116]
+                          - generic [ref=e1118]: Vložiť do košíka
+                  - listitem [ref=e1119]:
+                    - generic [ref=e1120]:
+                      - link "E-kniha" [ref=e1121] [cursor=pointer]:
+                        - /url: /940227-siroty/e-kniha
+                        - img [ref=e1122]
+                        - text: E-kniha
+                      - button "PDF" [ref=e1124]
+                      - button "EPUB" [ref=e1125]
+                      - button "MOBI" [ref=e1126]
+                    - generic [ref=e1127]:
+                      - generic [ref=e1128]:
+                        - generic [ref=e1129]: 10,90 €
+                        - button "Ihneď na stiahnutie" [disabled] [ref=e1132]:
+                          - emphasis [ref=e1133]: Ihneď na stiahnutie
+                      - generic [ref=e1134]:
+                        - link "Pridať do zoznamu" [ref=e1137] [cursor=pointer]:
+                          - /url: /login?redirect=%2F940227-siroty%2Fe-kniha&source=customer_catalog
+                          - img [ref=e1138]
+                          - generic [ref=e1140]: Pridať do zoznamu
+                        - button "Vložiť do košíka" [ref=e1143] [cursor=pointer]:
+                          - img [ref=e1144]
+                          - generic [ref=e1146]: Vložiť do košíka
+                - button "Ďalšie formáty" [ref=e1147] [cursor=pointer]:
+                  - img [ref=e1148]
+                  - generic [ref=e1150]:
+                    - text: Ďalšie formáty
+                    - img [ref=e1151]
+                    - img [ref=e1153]
+            - generic [ref=e1155]:
+              - 'link "Kniha: Milan Rastislav Štefánik (František Kele)" [ref=e1157] [cursor=pointer]':
+                - /url: /290229-milan-rastislav-stefanik/kniha
+                - 'img "Kniha: Milan Rastislav Štefánik (František Kele)" [ref=e1158]'
+              - generic [ref=e1159]:
+                - generic [ref=e1160]:
+                  - link "Milan Rastislav Štefánik" [ref=e1161] [cursor=pointer]:
+                    - /url: /290229-milan-rastislav-stefanik/kniha
+                  - generic [ref=e1162] [cursor=pointer]: Významný cestovateľ a jeho nasledovníci
+                - list "František Kele" [ref=e1164]:
+                  - listitem [ref=e1165]:
+                    - link "František Kele" [ref=e1166] [cursor=pointer]:
+                      - /url: /authors/frantisek-kele
+                - paragraph [ref=e1167]: Autor nám predstavuje vedca, vojaka, politika a diplomata Štefánika ako Štefánika cestovateľa, zručného fotografa a zberateľa....
+                - list [ref=e1168]:
+                  - listitem [ref=e1169]:
+                    - generic [ref=e1170]:
+                      - link "Kniha" [ref=e1171] [cursor=pointer]:
+                        - /url: /290229-milan-rastislav-stefanik/kniha
+                        - img [ref=e1172]
+                        - text: Kniha
+                      - text: pevná väzba s prebalom
+                    - generic [ref=e1174]:
+                      - generic [ref=e1175]:
+                        - generic [ref=e1176]: 17,50 €
+                        - button "Do 3 – 6 dní" [disabled] [ref=e1179]:
+                          - emphasis [ref=e1180]: Do 3 – 6 dní
+                      - generic [ref=e1181]:
+                        - link "Pridať do zoznamu" [ref=e1184] [cursor=pointer]:
+                          - /url: /login?redirect=%2F290229-milan-rastislav-stefanik%2Fkniha&source=customer_catalog
+                          - img [ref=e1185]
+                          - generic [ref=e1187]: Pridať do zoznamu
+                        - button "Vložiť do košíka" [ref=e1190] [cursor=pointer]:
+                          - img [ref=e1191]
+                          - generic [ref=e1193]: Vložiť do košíka
+            - separator [ref=e1194]
+            - generic [ref=e1195]:
+              - generic [ref=e1196]:
+                - 'link "Kniha: Generál M.R. Štefánik (Mariana Čengel Solčanská)" [ref=e1197] [cursor=pointer]':
+                  - /url: /739183-general-m-r-stefanik/citana
+                  - 'img "Kniha: Generál M.R. Štefánik (Mariana Čengel Solčanská)" [ref=e1198]'
+                - generic [ref=e1199]:
+                  - img [ref=e1200]
+                  - img [ref=e1202]
+                  - img [ref=e1204]
+                  - img [ref=e1206]
+                  - img [ref=e1210]
+              - generic [ref=e1212]:
+                - generic [ref=e1213]:
+                  - link "Generál M.R. Štefánik" [ref=e1214] [cursor=pointer]:
+                    - /url: /739183-general-m-r-stefanik/citana
+                  - text: CZ
+                - list "Mariana Čengel Solčanská" [ref=e1216]:
+                  - listitem [ref=e1217]:
+                    - link "Mariana Čengel Solčanská" [ref=e1218] [cursor=pointer]:
+                      - /url: /authors/mariana-cengel-solcanska-1
+                - paragraph [ref=e1219]: Druhý československý prezident dr. Edvard Beneš umírá. Zlomený, zahořklý muž však neodchází sám. Během jediné noci má několik návštěvníků, přízraků z vlastní minulosti, s nimiž vzpomíná na charismatického muže...
+                - list [ref=e1220]:
+                  - listitem [ref=e1221]:
+                    - generic [ref=e1222]:
+                      - link "Čítaná" [ref=e1223] [cursor=pointer]:
+                        - /url: /739183-general-m-r-stefanik/citana
+                        - img [ref=e1224]
+                        - text: Čítaná
+                      - button "výborný stav" [disabled] [ref=e1226]
+                    - generic [ref=e1227]:
+                      - generic [ref=e1228]:
+                        - generic [ref=e1229]: 13,10 €
+                        - button "Na sklade" [disabled] [ref=e1232]:
+                          - emphasis [ref=e1233]: Na sklade
+                      - button "Vložiť do košíka" [ref=e1237] [cursor=pointer]:
+                        - img [ref=e1238]
+                        - generic [ref=e1240]: Vložiť do košíka
+                  - listitem [ref=e1241]:
+                    - generic [ref=e1242]:
+                      - link "Kniha" [ref=e1243] [cursor=pointer]:
+                        - /url: /739183-general-m-r-stefanik/kniha
+                        - img [ref=e1244]
+                        - text: Kniha
+                      - text: pevná väzba
+                    - generic [ref=e1246]:
+                      - generic [ref=e1247]:
+                        - generic [ref=e1248]: 18,75 €
+                        - button "Do 3 – 6 dní" [disabled] [ref=e1251]:
+                          - emphasis [ref=e1252]: Do 3 – 6 dní
+                      - generic [ref=e1253]:
+                        - link "Pridať do zoznamu" [ref=e1256] [cursor=pointer]:
+                          - /url: /login?redirect=%2F739183-general-m-r-stefanik%2Fkniha&source=customer_catalog
+                          - img [ref=e1257]
+                          - generic [ref=e1259]: Pridať do zoznamu
+                        - button "Vložiť do košíka" [ref=e1262] [cursor=pointer]:
+                          - img [ref=e1263]
+                          - generic [ref=e1265]: Vložiť do košíka
+                - button "Ďalšie formáty" [ref=e1266] [cursor=pointer]:
+                  - img [ref=e1267]
+                  - generic [ref=e1269]:
+                    - text: Ďalšie formáty
+                    - img [ref=e1270]
+            - generic [ref=e1272]:
+              - generic [ref=e1273]:
+                - 'link "Kniha: Som Paula (Ondrej Štefánik)" [ref=e1274] [cursor=pointer]':
+                  - /url: /778393-som-paula/kniha
+                  - 'img "Kniha: Som Paula (Ondrej Štefánik)" [ref=e1275]'
+                - generic [ref=e1276]:
+                  - img [ref=e1277]
+                  - img [ref=e1279]
+                  - img [ref=e1281]
+                  - img [ref=e1283]
+                  - img [ref=e1285]
+              - generic [ref=e1287]:
+                - link "Som Paula" [ref=e1289] [cursor=pointer]:
+                  - /url: /778393-som-paula/kniha
+                - list "Ondrej Štefánik" [ref=e1291]:
+                  - listitem [ref=e1292]:
+                    - link "Ondrej Štefánik" [ref=e1293] [cursor=pointer]:
+                      - /url: /authors/ondrej-stefanik
+                - button "Martinusáčka odporúča 5" [disabled] [ref=e1294]:
+                  - emphasis [ref=e1296]: Martinusáčka odporúča
+                  - strong [ref=e1297]:
+                    - img [ref=e1298]
+                    - text: "5"
+                - paragraph [ref=e1300]: Som Paula je román zo súčasnosti, aký by sme v dnešnej literatúre ťažko hľadali. Popisuje rozklad nášho sveta, jeho prirodzených a životne dôležitých štruktúr, sebazáchovných mechanizmov, vzťahov a indentifikácií, ...
+                - list [ref=e1301]:
+                  - listitem [ref=e1302]:
+                    - generic [ref=e1303]:
+                      - link "Čítaná" [ref=e1304] [cursor=pointer]:
+                        - /url: /778393-som-paula/kniha
+                        - img [ref=e1305]
+                        - text: Čítaná
+                      - button "mierne opotrebovaná" [disabled] [ref=e1307]
+                    - generic [ref=e1308]:
+                      - generic [ref=e1309]:
+                        - generic [ref=e1310]: 9,30 €
+                        - button "Na sklade" [disabled] [ref=e1313]:
+                          - emphasis [ref=e1314]: Na sklade
+                      - button "Vložiť do košíka" [ref=e1318] [cursor=pointer]:
+                        - img [ref=e1319]
+                        - generic [ref=e1321]: Vložiť do košíka
+                  - listitem [ref=e1322]:
+                    - generic [ref=e1323]:
+                      - link "Kniha" [ref=e1324] [cursor=pointer]:
+                        - /url: /778393-som-paula/260352
+                        - img [ref=e1325]
+                        - text: Kniha
+                      - text: pevná väzba s prebalom
+                    - generic [ref=e1327]:
+                      - button "Vypredané" [disabled] [ref=e1331]:
+                        - emphasis [ref=e1332]: Vypredané
+                      - link "Pridať do zoznamu" [ref=e1336] [cursor=pointer]:
+                        - /url: /login?redirect=%2F778393-som-paula%2F260352&source=customer_catalog
+                        - img [ref=e1337]
+                        - generic [ref=e1339]: Pridať do zoznamu
+                - button "Ďalšie formáty" [ref=e1340] [cursor=pointer]:
+                  - img [ref=e1341]
+                  - generic [ref=e1343]:
+                    - text: Ďalšie formáty
+                    - img [ref=e1344]
+            - separator [ref=e1346]
+            - generic [ref=e1347]:
+              - 'link "Kniha: Štefánik vo fotografii (Vojtěch Klíma)" [ref=e1349] [cursor=pointer]':
+                - /url: /1145631-stefanik-vo-fotografii/kniha
+                - 'img "Kniha: Štefánik vo fotografii (Vojtěch Klíma)" [ref=e1350]'
+              - generic [ref=e1351]:
+                - link "Štefánik vo fotografii" [ref=e1353] [cursor=pointer]:
+                  - /url: /1145631-stefanik-vo-fotografii/kniha
+                - list "Vojtěch Klíma" [ref=e1355]:
+                  - listitem [ref=e1356]:
+                    - link "Vojtěch Klíma" [ref=e1357] [cursor=pointer]:
+                      - /url: /authors/vojtech-klima
+                - paragraph [ref=e1358]: Vedec, vojak, politik... Nové vydanie úspešnej predvojnovej obrazovej publikácie približuje život a smrť národného hrdinu Milana Rastislava Štefánika. Viac ako sto oficiálnych i súkromných fotografií dokumentuje činy, ktorými sa...
+                - list [ref=e1359]:
+                  - listitem [ref=e1360]:
+                    - generic [ref=e1361]:
+                      - link "Kniha" [ref=e1362] [cursor=pointer]:
+                        - /url: /1145631-stefanik-vo-fotografii/kniha
+                        - img [ref=e1363]
+                        - text: Kniha
+                      - text: pevná väzba
+                    - generic [ref=e1365]:
+                      - generic [ref=e1366]:
+                        - generic [ref=e1367]: 9,90 €
+                        - button "Do 3 – 6 dní" [disabled] [ref=e1370]:
+                          - emphasis [ref=e1371]: Do 3 – 6 dní
+                      - generic [ref=e1372]:
+                        - link "Pridať do zoznamu" [ref=e1375] [cursor=pointer]:
+                          - /url: /login?redirect=%2F1145631-stefanik-vo-fotografii%2Fkniha&source=customer_catalog
+                          - img [ref=e1376]
+                          - generic [ref=e1378]: Pridať do zoznamu
+                        - button "Vložiť do košíka" [ref=e1381] [cursor=pointer]:
+                          - img [ref=e1382]
+                          - generic [ref=e1384]: Vložiť do košíka
+            - generic [ref=e1385]:
+              - 'link "Kniha: Mladý Štefánik (József Demmel)" [ref=e1387] [cursor=pointer]':
+                - /url: /2936115-mlady-stefanik/kniha
+                - 'img "Kniha: Mladý Štefánik (József Demmel)" [ref=e1388]'
+              - generic [ref=e1389]:
+                - link "Mladý Štefánik" [ref=e1391] [cursor=pointer]:
+                  - /url: /2936115-mlady-stefanik/kniha
+                - list "József Demmel" [ref=e1393]:
+                  - listitem [ref=e1394]:
+                    - link "József Demmel" [ref=e1395] [cursor=pointer]:
+                      - /url: /authors/jozsef-demmel
+                - paragraph [ref=e1396]: MILAN RASTISLAV ŠTEFÁNIK. Je nám známy ako pražský študent, učený astronóm, francúzsky generál a spoluzakladateľ Československa. Historik József Demmel nám ponúka Štefánikov polyfónny portrét z obdobia jeho mladosti. Spoznáme ho ako syna chudobného...
+                - list [ref=e1397]:
+                  - listitem [ref=e1398]:
+                    - link "Kniha" [ref=e1400] [cursor=pointer]:
+                      - /url: /2936115-mlady-stefanik/kniha
+                      - img [ref=e1401]
+                      - text: Kniha
+                    - generic [ref=e1403]:
+                      - generic [ref=e1404]:
+                        - generic [ref=e1405]: 16,50 €
+                        - button "Na sklade > 5 ks" [disabled] [ref=e1408]:
+                          - emphasis [ref=e1409]: Na sklade > 5 ks
+                      - generic [ref=e1410]:
+                        - link "Pridať do zoznamu" [ref=e1413] [cursor=pointer]:
+                          - /url: /login?redirect=%2F2936115-mlady-stefanik%2Fkniha&source=customer_catalog
+                          - img [ref=e1414]
+                          - generic [ref=e1416]: Pridať do zoznamu
+                        - button "Vložiť do košíka" [ref=e1419] [cursor=pointer]:
+                          - img [ref=e1420]
+                          - generic [ref=e1422]: Vložiť do košíka
+                  - listitem [ref=e1423]:
+                    - generic [ref=e1424]:
+                      - link "E-kniha" [ref=e1425] [cursor=pointer]:
+                        - /url: /2936115-mlady-stefanik/e-kniha
+                        - img [ref=e1426]
+                        - text: E-kniha
+                      - button "PDF" [ref=e1428]
+                      - button "EPUB" [ref=e1429]
+                      - button "MOBI" [ref=e1430]
+                    - generic [ref=e1431]:
+                      - generic [ref=e1432]:
+                        - generic [ref=e1433]: 11,99 €
+                        - button "Ihneď na stiahnutie" [disabled] [ref=e1436]:
+                          - emphasis [ref=e1437]: Ihneď na stiahnutie
+                      - generic [ref=e1438]:
+                        - link "Pridať do zoznamu" [ref=e1441] [cursor=pointer]:
+                          - /url: /login?redirect=%2F2936115-mlady-stefanik%2Fe-kniha&source=customer_catalog
+                          - img [ref=e1442]
+                          - generic [ref=e1444]: Pridať do zoznamu
+                        - button "Vložiť do košíka" [ref=e1447] [cursor=pointer]:
+                          - img [ref=e1448]
+                          - generic [ref=e1450]: Vložiť do košíka
+                - button "Ďalšie formáty" [ref=e1451] [cursor=pointer]:
+                  - img [ref=e1452]
+                  - generic [ref=e1454]:
+                    - text: Ďalšie formáty
+                    - img [ref=e1455]
+            - separator [ref=e1457]
+            - generic [ref=e1458]:
+              - generic [ref=e1459]:
+                - 'link "Kniha: Ako žiť a nezblázniť sa (Lucia Okoličányová)" [ref=e1460] [cursor=pointer]':
+                  - /url: /3602123-ako-zit-a-nezblaznit-sa/kniha
+                  - 'img "Kniha: Ako žiť a nezblázniť sa (Lucia Okoličányová)" [ref=e1461]'
+                - generic [ref=e1463]: Novinka
+              - generic [ref=e1464]:
+                - generic [ref=e1465]:
+                  - link "Ako žiť a nezblázniť sa" [ref=e1466] [cursor=pointer]:
+                    - /url: /3602123-ako-zit-a-nezblaznit-sa/kniha
+                  - generic [ref=e1467] [cursor=pointer]: Zastav sa, dýchaj, hýb sa
+                - list "Lucia Okoličányová" [ref=e1469]:
+                  - listitem [ref=e1470]:
+                    - link "Lucia Okoličányová" [ref=e1471] [cursor=pointer]:
+                      - /url: /authors/lucia-okolicanyova
+                - paragraph [ref=e1472]: Keď sa život valí rýchlejšie, než by sme chceli, ako z toho von? Kniha sa venuje trom témam – všímavosti, funkčnému dýchaniu a pravidelnému pohybu. Predstavuje ich ako nástroje, ktorými si vieme zlepšiť kvalitu života a navyše ich máme úplne na dosah...
+                - list [ref=e1473]:
+                  - listitem [ref=e1474]:
+                    - generic [ref=e1475]:
+                      - link "Kniha" [ref=e1476] [cursor=pointer]:
+                        - /url: /3602123-ako-zit-a-nezblaznit-sa/kniha
+                        - img [ref=e1477]
+                        - text: Kniha
+                      - text: brožovaná väzba
+                    - generic [ref=e1479]:
+                      - generic [ref=e1480]:
+                        - generic [ref=e1481]:
+                          - text: 15,39 €
+                          - generic [ref=e1482]: "-14 %"
+                        - button "Dostupný 24. 11. 2025" [disabled] [ref=e1485]:
+                          - emphasis [ref=e1486]: Dostupný 24. 11. 2025
+                      - generic [ref=e1487]:
+                        - link "Pridať do zoznamu" [ref=e1490] [cursor=pointer]:
+                          - /url: /login?redirect=%2F3602123-ako-zit-a-nezblaznit-sa%2Fkniha&source=customer_catalog
+                          - img [ref=e1491]
+                          - generic [ref=e1493]: Pridať do zoznamu
+                        - button "Vložiť do košíka" [ref=e1496] [cursor=pointer]:
+                          - img [ref=e1497]
+                          - generic [ref=e1499]: Vložiť do košíka
+            - generic [ref=e1500]:
+              - generic [ref=e1501]:
+                - 'link "Kniha: Štefánik - Muž činu (Adam Berka)" [ref=e1502] [cursor=pointer]':
+                  - /url: /1261333-stefanik-muz-cinu/kniha
+                  - 'img "Kniha: Štefánik - Muž činu (Adam Berka)" [ref=e1503]'
+                - img "Knižka z výberu Knihy roka 2021" [ref=e1504]
+              - generic [ref=e1505]:
+                - link "Štefánik - Muž činu" [ref=e1507] [cursor=pointer]:
+                  - /url: /1261333-stefanik-muz-cinu/kniha
+                - list "Adam Berka" [ref=e1509]:
+                  - listitem [ref=e1510]:
+                    - link "Adam Berka" [ref=e1511] [cursor=pointer]:
+                      - /url: /authors/adam-berka
+                - paragraph [ref=e1512]: Štefánik - Muž činu je ilustrovaná kniha o dobrodružnom a činorodom živote jednej z najdôležitejších osobností našich dejín.
+                - list [ref=e1513]:
+                  - listitem [ref=e1514]:
+                    - link "Kniha" [ref=e1516] [cursor=pointer]:
+                      - /url: /1261333-stefanik-muz-cinu/kniha
+                      - img [ref=e1517]
+                      - text: Kniha
+                    - generic [ref=e1519]:
+                      - generic [ref=e1520]:
+                        - generic [ref=e1521]: 19,90 €
+                        - button "Na sklade 2 ks" [disabled] [ref=e1524]:
+                          - emphasis [ref=e1525]: Na sklade 2 ks
+                      - generic [ref=e1526]:
+                        - link "Pridať do zoznamu" [ref=e1529] [cursor=pointer]:
+                          - /url: /login?redirect=%2F1261333-stefanik-muz-cinu%2Fkniha&source=customer_catalog
+                          - img [ref=e1530]
+                          - generic [ref=e1532]: Pridať do zoznamu
+                        - button "Vložiť do košíka" [ref=e1535] [cursor=pointer]:
+                          - img [ref=e1536]
+                          - generic [ref=e1538]: Vložiť do košíka
+                  - listitem [ref=e1539]:
+                    - generic [ref=e1540]:
+                      - link "Čítaná" [ref=e1541] [cursor=pointer]:
+                        - /url: /1261333-stefanik-muz-cinu/citana
+                        - img [ref=e1542]
+                        - text: Čítaná
+                      - button "mierne opotrebovaná" [disabled] [ref=e1544]
+                    - generic [ref=e1545]:
+                      - generic [ref=e1546]:
+                        - generic [ref=e1547]: 13,90 €
+                        - button "Na sklade" [disabled] [ref=e1550]:
+                          - emphasis [ref=e1551]: Na sklade
+                      - button "Vložiť do košíka" [ref=e1555] [cursor=pointer]:
+                        - img [ref=e1556]
+                        - generic [ref=e1558]: Vložiť do košíka
+            - separator [ref=e1559]
+            - generic [ref=e1560]:
+              - generic [ref=e1561]:
+                - 'link "Kniha: Milan Rastislav Štefánik (Michal Kšiňan)" [ref=e1562] [cursor=pointer]':
+                  - /url: /2357263-milan-rastislav-stefanik/kniha
+                  - 'img "Kniha: Milan Rastislav Štefánik (Michal Kšiňan)" [ref=e1563]'
+                - generic [ref=e1564]:
+                  - img [ref=e1565]
+                  - img [ref=e1567]
+                  - img [ref=e1569]
+                  - img [ref=e1571]
+                  - img [ref=e1573]
+              - generic [ref=e1577]:
+                - generic [ref=e1578]:
+                  - link "Milan Rastislav Štefánik" [ref=e1579] [cursor=pointer]:
+                    - /url: /2357263-milan-rastislav-stefanik/kniha
+                  - text: CZ
+                  - generic [ref=e1580] [cursor=pointer]: Muž, který si povídal s hvězdami
+                - list "Michal Kšiňan" [ref=e1582]:
+                  - listitem [ref=e1583]:
+                    - link "Michal Kšiňan" [ref=e1584] [cursor=pointer]:
+                      - /url: /authors/michal-ksinan
+                - paragraph [ref=e1585]: V českém prostředí je Milan Rastislav Štefánik nahlížen téměř výhradně v souvislosti s jeho podílem na vzniku Československa v roce 1918. Ve skutečnosti byl ale jeho život mnohem bohatší...
+                - list [ref=e1586]:
+                  - listitem [ref=e1587]:
+                    - generic [ref=e1588]:
+                      - link "Kniha" [ref=e1589] [cursor=pointer]:
+                        - /url: /2357263-milan-rastislav-stefanik/kniha
+                        - img [ref=e1590]
+                        - text: Kniha
+                      - text: pevná väzba
+                    - generic [ref=e1592]:
+                      - generic [ref=e1593]:
+                        - generic [ref=e1594]: 23,40 €
+                        - button "Na sklade 1 ks" [disabled] [ref=e1597]:
+                          - emphasis [ref=e1598]: Na sklade 1 ks
+                      - generic [ref=e1599]:
+                        - link "Pridať do zoznamu" [ref=e1602] [cursor=pointer]:
+                          - /url: /login?redirect=%2F2357263-milan-rastislav-stefanik%2Fkniha&source=customer_catalog
+                          - img [ref=e1603]
+                          - generic [ref=e1605]: Pridať do zoznamu
+                        - button "Vložiť do košíka" [ref=e1608] [cursor=pointer]:
+                          - img [ref=e1609]
+                          - generic [ref=e1611]: Vložiť do košíka
+                  - listitem [ref=e1612]:
+                    - generic [ref=e1613]:
+                      - link "E-kniha" [ref=e1614] [cursor=pointer]:
+                        - /url: /2357263-milan-rastislav-stefanik/e-kniha
+                        - img [ref=e1615]
+                        - text: E-kniha
+                      - button "PDF" [ref=e1617]
+                      - button "EPUB" [ref=e1618]
+                      - button "MOBI" [ref=e1619]
+                    - generic [ref=e1620]:
+                      - generic [ref=e1621]:
+                        - generic [ref=e1622]: 15,47 €
+                        - button "Ihneď na stiahnutie" [disabled] [ref=e1625]:
+                          - emphasis [ref=e1626]: Ihneď na stiahnutie
+                      - generic [ref=e1627]:
+                        - link "Pridať do zoznamu" [ref=e1630] [cursor=pointer]:
+                          - /url: /login?redirect=%2F2357263-milan-rastislav-stefanik%2Fe-kniha&source=customer_catalog
+                          - img [ref=e1631]
+                          - generic [ref=e1633]: Pridať do zoznamu
+                        - button "Vložiť do košíka" [ref=e1636] [cursor=pointer]:
+                          - img [ref=e1637]
+                          - generic [ref=e1639]: Vložiť do košíka
+            - generic [ref=e1640]:
+              - 'link "Kniha: Štefánik - Mon Amour (Miroslav Musil)" [ref=e1642] [cursor=pointer]':
+                - /url: /826163-stefanik-mon-amour/kniha
+                - 'img "Kniha: Štefánik - Mon Amour (Miroslav Musil)" [ref=e1643]'
+              - generic [ref=e1644]:
+                - link "Štefánik - Mon Amour" [ref=e1646] [cursor=pointer]:
+                  - /url: /826163-stefanik-mon-amour/kniha
+                - list "Miroslav Musil" [ref=e1648]:
+                  - listitem [ref=e1649]:
+                    - link "Miroslav Musil" [ref=e1650] [cursor=pointer]:
+                      - /url: /authors/miroslav-musil
+                - paragraph [ref=e1651]: Štefánik – Mon Amour je skutočný príbeh dvoch európskych osobností, ktoré tvorili dejiny. Louise Weiss – francúzska spisovateľka, novinárka, neskôr bojovníčka za volebné právo žien a priekopnícka Európanka – popisuje perom....
+                - list [ref=e1652]:
+                  - listitem [ref=e1653]:
+                    - generic [ref=e1654]:
+                      - link "Kniha" [ref=e1655] [cursor=pointer]:
+                        - /url: /826163-stefanik-mon-amour/kniha
+                        - img [ref=e1656]
+                        - text: Kniha
+                      - text: pevná väzba
+                    - generic [ref=e1658]:
+                      - generic [ref=e1659]:
+                        - generic [ref=e1660]: 22,00 €
+                        - button "Na sklade 3 ks" [disabled] [ref=e1663]:
+                          - emphasis [ref=e1664]: Na sklade 3 ks
+                      - generic [ref=e1665]:
+                        - link "Pridať do zoznamu" [ref=e1668] [cursor=pointer]:
+                          - /url: /login?redirect=%2F826163-stefanik-mon-amour%2Fkniha&source=customer_catalog
+                          - img [ref=e1669]
+                          - generic [ref=e1671]: Pridať do zoznamu
+                        - button "Vložiť do košíka" [ref=e1674] [cursor=pointer]:
+                          - img [ref=e1675]
+                          - generic [ref=e1677]: Vložiť do košíka
+            - separator [ref=e1678]
+            - generic [ref=e1679]:
+              - 'link "Kniha: Stredoveké mesto a jeho obyvatelia (Martin Štefánik)" [ref=e1681] [cursor=pointer]':
+                - /url: /949789-stredoveke-mesto-a-jeho-obyvatelia/kniha
+                - 'img "Kniha: Stredoveké mesto a jeho obyvatelia (Martin Štefánik)" [ref=e1682]'
+              - generic [ref=e1683]:
+                - link "Stredoveké mesto a jeho obyvatelia" [ref=e1685] [cursor=pointer]:
+                  - /url: /949789-stredoveke-mesto-a-jeho-obyvatelia/kniha
+                - list "Martin Štefánik" [ref=e1687]:
+                  - listitem [ref=e1688]:
+                    - link "Martin Štefánik" [ref=e1689] [cursor=pointer]:
+                      - /url: /authors/martin-stefanik
+                - paragraph [ref=e1690]: Prezentovaná publikácia sa popri ekonomickom a obchodnom hľadisku venuje aj ďalším oblastiam fungovania miest, prevažne na území dnešného Slovenska. To je zasadené do celouhorského...
+                - list [ref=e1691]:
+                  - listitem [ref=e1692]:
+                    - generic [ref=e1693]:
+                      - link "Kniha" [ref=e1694] [cursor=pointer]:
+                        - /url: /949789-stredoveke-mesto-a-jeho-obyvatelia/kniha
+                        - img [ref=e1695]
+                        - text: Kniha
+                      - text: pevná väzba
+                    - generic [ref=e1697]:
+                      - generic [ref=e1698]:
+                        - generic [ref=e1699]: 21,00 €
+                        - button "Na sklade 1 ks" [disabled] [ref=e1702]:
+                          - emphasis [ref=e1703]: Na sklade 1 ks
+                      - generic [ref=e1704]:
+                        - link "Pridať do zoznamu" [ref=e1707] [cursor=pointer]:
+                          - /url: /login?redirect=%2F949789-stredoveke-mesto-a-jeho-obyvatelia%2Fkniha&source=customer_catalog
+                          - img [ref=e1708]
+                          - generic [ref=e1710]: Pridať do zoznamu
+                        - button "Vložiť do košíka" [ref=e1713] [cursor=pointer]:
+                          - img [ref=e1714]
+                          - generic [ref=e1716]: Vložiť do košíka
+            - generic [ref=e1717]:
+              - 'link "Kniha: Pštrosí muž (Ondrej Štefánik)" [ref=e1719] [cursor=pointer]':
+                - /url: /678185-pstrosi-muz/kniha
+                - 'img "Kniha: Pštrosí muž (Ondrej Štefánik)" [ref=e1720]'
+              - generic [ref=e1721]:
+                - generic [ref=e1722]:
+                  - link "Pštrosí muž" [ref=e1723] [cursor=pointer]:
+                    - /url: /678185-pstrosi-muz/kniha
+                  - text: CZ
+                - list "Ondrej Štefánik" [ref=e1725]:
+                  - listitem [ref=e1726]:
+                    - link "Ondrej Štefánik" [ref=e1727] [cursor=pointer]:
+                      - /url: /authors/ondrej-stefanik
+                - paragraph [ref=e1728]: Ve svých temně laděných, absurdních povídkách hledá slovenský prozaik a loňský finalista ceny Anasoft litera Ondrej Štefánik (nar. 1978) s postmoderní vervou smysl života, který mu s postmoderní obratností také uniká. Čtenáři je umožněno takříkajíc...
+                - list [ref=e1729]:
+                  - listitem [ref=e1730]:
+                    - generic [ref=e1731]:
+                      - link "Kniha" [ref=e1732] [cursor=pointer]:
+                        - /url: /678185-pstrosi-muz/kniha
+                        - img [ref=e1733]
+                        - text: Kniha
+                      - text: pevná väzba
+                    - generic [ref=e1735]:
+                      - generic [ref=e1736]:
+                        - generic [ref=e1737]:
+                          - text: 15,70 €
+                          - generic [ref=e1738]: "-12 %"
+                        - button "Na sklade 1 ks" [disabled] [ref=e1741]:
+                          - emphasis [ref=e1742]: Na sklade 1 ks
+                      - generic [ref=e1743]:
+                        - link "Pridať do zoznamu" [ref=e1746] [cursor=pointer]:
+                          - /url: /login?redirect=%2F678185-pstrosi-muz%2Fkniha&source=customer_catalog
+                          - img [ref=e1747]
+                          - generic [ref=e1749]: Pridať do zoznamu
+                        - button "Vložiť do košíka" [ref=e1752] [cursor=pointer]:
+                          - img [ref=e1753]
+                          - generic [ref=e1755]: Vložiť do košíka
+                  - listitem [ref=e1756]:
+                    - generic [ref=e1757]:
+                      - link "E-kniha" [ref=e1758] [cursor=pointer]:
+                        - /url: /678185-pstrosi-muz/e-kniha
+                        - img [ref=e1759]
+                        - text: E-kniha
+                      - button "PDF" [ref=e1761]
+                      - button "EPUB" [ref=e1762]
+                      - button "MOBI" [ref=e1763]
+                    - generic [ref=e1764]:
+                      - generic [ref=e1765]:
+                        - generic [ref=e1766]: 9,90 €
+                        - button "Ihneď na stiahnutie" [disabled] [ref=e1769]:
+                          - emphasis [ref=e1770]: Ihneď na stiahnutie
+                      - generic [ref=e1771]:
+                        - link "Pridať do zoznamu" [ref=e1774] [cursor=pointer]:
+                          - /url: /login?redirect=%2F678185-pstrosi-muz%2Fe-kniha&source=customer_catalog
+                          - img [ref=e1775]
+                          - generic [ref=e1777]: Pridať do zoznamu
+                        - button "Vložiť do košíka" [ref=e1780] [cursor=pointer]:
+                          - img [ref=e1781]
+                          - generic [ref=e1783]: Vložiť do košíka
+            - separator [ref=e1784]
+          - navigation "Stránkovanie" [ref=e1785]:
+            - generic [ref=e1786]:
+              - link "Hore" [ref=e1787] [cursor=pointer]:
+                - /url: /search?q=prebijem+sa%21+Stefanik#page-container
+                - img [ref=e1788]
+                - text: Hore
+              - generic [ref=e1790]:
+                - link "1" [ref=e1791] [cursor=pointer]:
+                  - /url: /search?q=prebijem+sa%21+Stefanik
+                - link "2" [ref=e1792] [cursor=pointer]:
+                  - /url: /search?q=prebijem+sa%21+Stefanik&page=2
+                - link "3" [ref=e1793] [cursor=pointer]:
+                  - /url: /search?q=prebijem+sa%21+Stefanik&page=3
+                - generic [ref=e1794]: …
+                - link "500" [ref=e1795] [cursor=pointer]:
+                  - /url: /search?q=prebijem+sa%21+Stefanik&page=500
+            - link "Ďalšie príbehy" [ref=e1797] [cursor=pointer]:
+              - /url: /search?q=prebijem+sa%21+Stefanik&page=2
+              - text: Ďalšie príbehy
+              - img [ref=e1798]
+    - generic [ref=e1804]:
+      - generic [ref=e1806]: Sú chvíle, na ktoré človek len tak nezabudne, ostrým večným perom sa mu zapíšu na stránky pamäti a vryjú do srdca, odkiaľ ich nik nevymaže.
+      - generic [ref=e1808]:
+        - generic:
+          - 'img "Kniha: Potulky s Charleym (John Steinbeck)"'
+        - generic [ref=e1809]:
+          - link "Potulky s Charleym" [ref=e1810] [cursor=pointer]:
+            - /url: /736659-potulky-s-charleym/kniha
+          - list "John Steinbeck" [ref=e1812]:
+            - listitem [ref=e1813]: John Steinbeck
+    - generic [ref=e1817]:
+      - generic [ref=e1818]:
+        - generic:
+          - link "Podporujeme čítanie s porozumením":
+            - /url: /pomoc/preco-nakupovat-u-nas
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - paragraph:
+                    - text: Podporujeme
+                    - generic:
+                      - text: čítanie
+                      - text: s porozumením
+        - link "Tovar skladom expedujeme okamžite" [ref=e1820] [cursor=pointer]:
+          - /url: /pomoc/preco-nakupovat-u-nas
+          - generic [ref=e1822]:
+            - img [ref=e1824]
+            - paragraph [ref=e1827]:
+              - text: Tovar skladom
+              - generic [ref=e1828]:
+                - text: expedujeme
+                - text: okamžite
+        - link "U nás nakupujete vždy bezpečne a s dôverou" [ref=e1830] [cursor=pointer]:
+          - /url: /pomoc/preco-nakupovat-u-nas
+          - generic [ref=e1832]:
+            - img [ref=e1834]
+            - paragraph [ref=e1837]:
+              - text: U nás nakupujete
+              - text: vždy bezpečne
+              - text: a s dôverou
+        - link "Máme 35-ročnú tradíciu predaja kníh" [ref=e1839] [cursor=pointer]:
+          - /url: /pomoc/preco-nakupovat-u-nas
+          - generic [ref=e1841]:
+            - img [ref=e1843]
+            - paragraph [ref=e1846]:
+              - text: Máme
+              - text: 35-ročnú tradíciu
+              - text: predaja kníh
+        - link "Ponúkame vyše 100 000 titulov na sklade" [ref=e1848] [cursor=pointer]:
+          - /url: /pomoc/preco-nakupovat-u-nas
+          - generic [ref=e1850]:
+            - img [ref=e1852]
+            - paragraph [ref=e1855]:
+              - text: Ponúkame vyše
+              - text: 100 000 titulov
+              - text: na sklade
+        - link "Osobný odber 20 kníhkupectiev po celom Slovensku" [ref=e1857] [cursor=pointer]:
+          - /url: /pomoc/preco-nakupovat-u-nas
+          - generic [ref=e1859]:
+            - img [ref=e1861]
+            - paragraph [ref=e1864]:
+              - text: Osobný odber
+              - text: 20 kníhkupectiev
+              - text: po celom Slovensku
+        - generic:
+          - link "Sme 7-násobný MasterCard Obchodník roka":
+            - /url: /pomoc/preco-nakupovat-u-nas
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - paragraph:
+                    - text: Sme 7-násobný
+                    - generic:
+                      - text: MasterCard
+                      - text: Obchodník roka
+        - generic:
+          - link "Organizujeme množstvo besied s autormi":
+            - /url: /pomoc/preco-nakupovat-u-nas
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - paragraph:
+                    - text: Organizujeme
+                    - text: množstvo besied
+                    - text: s autormi
+      - button "Predchádzajúce" [ref=e1865] [cursor=pointer]:
+        - img [ref=e1866]
+        - generic [ref=e1868]: Predchádzajúce
+      - button "Ďalšie" [ref=e1869] [cursor=pointer]:
+        - img [ref=e1870]
+        - generic [ref=e1872]: Ďalšie
+    - contentinfo [ref=e1873]:
+      - generic [ref=e1874]:
+        - paragraph [ref=e1876]: Aj z drobných vecí sa dajú urobiť veľké. Vďaka vašim Anjelským drobným ste pri nákupoch na Martinuse darovali už 1 400 164,00 € na Dobrého Anjela. Ďakujeme!
+        - generic [ref=e1877]:
+          - generic [ref=e1878]:
+            - heading "Kníhkupectvá" [level=5] [ref=e1879]
+            - list [ref=e1880]:
+              - listitem [ref=e1881]:
+                - link "Bratislava - Obchodná" [ref=e1882] [cursor=pointer]:
+                  - /url: /knihkupectva/bratislava
+                  - text: Bratislava - Obchodná
+                  - img [ref=e1883]
+                - strong [ref=e1885]: • Zatvorené do zajtra 10:00
+              - listitem [ref=e1886]:
+                - link "Všetky kníhkupectvá" [ref=e1887] [cursor=pointer]:
+                  - /url: /knihkupectva
+              - listitem [ref=e1888]:
+                - link "Udalosti" [ref=e1889] [cursor=pointer]:
+                  - /url: /udalosti
+              - listitem [ref=e1890]:
+                - link "Spriatelené kníhkupectvá" [ref=e1891] [cursor=pointer]:
+                  - /url: /spriatelene-knihkupectva
+          - generic [ref=e1892]:
+            - heading "Kategórie" [level=5] [ref=e1893]
+            - list [ref=e1894]:
+              - listitem [ref=e1895]:
+                - link "Knihy" [ref=e1896] [cursor=pointer]:
+                  - /url: https://www.martinus.sk/l?categories%5B0%5D=6001
+              - listitem [ref=e1897]:
+                - link "E-knihy" [ref=e1898] [cursor=pointer]:
+                  - /url: https://www.martinus.sk/l?categories%5B0%5D=6001&types%5B0%5D=ekniha
+              - listitem [ref=e1899]:
+                - link "Audioknihy" [ref=e1900] [cursor=pointer]:
+                  - /url: https://www.martinus.sk/l?categories%5B0%5D=6001&types%5B0%5D=audiokniha
+              - listitem [ref=e1901]:
+                - link "Hry" [ref=e1902] [cursor=pointer]:
+                  - /url: https://www.martinus.sk/l?categories%5B0%5D=6982
+              - listitem [ref=e1903]:
+                - link "Filmy" [ref=e1904] [cursor=pointer]:
+                  - /url: https://www.martinus.sk/l?categories%5B0%5D=7104
+              - listitem [ref=e1905]:
+                - link "Doplnky" [ref=e1906] [cursor=pointer]:
+                  - /url: https://www.martinus.sk/l?categories%5B0%5D=7628
+          - generic [ref=e1907]:
+            - heading "Nakupujte u nás" [level=5] [ref=e1908]
+            - list [ref=e1909]:
+              - listitem [ref=e1910]:
+                - link "Doručenie" [ref=e1911] [cursor=pointer]:
+                  - /url: https://www.martinus.sk/dorucenie
+              - listitem [ref=e1912]:
+                - link "Platba" [ref=e1913] [cursor=pointer]:
+                  - /url: https://www.martinus.sk/pomoc/moznosti-platby
+              - listitem [ref=e1914]:
+                - link "Prečo práve u nás?" [ref=e1915] [cursor=pointer]:
+                  - /url: https://www.martinus.sk/pomoc/preco-nakupovat-u-nas
+              - listitem [ref=e1916]:
+                - link "Najčastejšie otázky" [ref=e1917] [cursor=pointer]:
+                  - /url: https://www.martinus.sk/pomoc/najcastejsie-otazky
+              - listitem [ref=e1918]:
+                - link "Rezervácia v kníhkupectve" [ref=e1919] [cursor=pointer]:
+                  - /url: https://www.martinus.sk/rezervacia
+              - listitem [ref=e1920]:
+                - link "Ako čítať e-knihy" [ref=e1921] [cursor=pointer]:
+                  - /url: https://www.martinus.sk/pomoc/e-knihy/info
+              - listitem [ref=e1922]:
+                - link "Ako počúvať audioknihy" [ref=e1923] [cursor=pointer]:
+                  - /url: https://www.martinus.sk/pomoc/audioknizne-aplikacie
+              - listitem [ref=e1924]:
+                - link "Pre školy a knižnice" [ref=e1925] [cursor=pointer]:
+                  - /url: https://www.martinus.sk/pre-skoly-a-kniznice
+              - listitem [ref=e1926]:
+                - link "Reklamácie" [ref=e1927] [cursor=pointer]:
+                  - /url: https://www.martinus.sk/pomoc/reklamacie
+              - listitem [ref=e1928]:
+                - link "Poradíme vám?" [ref=e1929] [cursor=pointer]:
+                  - /url: https://www.martinus.sk/pomocnik
+          - generic [ref=e1930]:
+            - heading "Martinus" [level=5] [ref=e1931]
+            - list [ref=e1932]:
+              - listitem [ref=e1933]:
+                - link "Kontakty" [ref=e1934] [cursor=pointer]:
+                  - /url: https://www.martinus.sk/kontakt
+              - listitem [ref=e1935]:
+                - link "Náš príbeh" [ref=e1936] [cursor=pointer]:
+                  - /url: https://blog.martinus.sk/nas-pribeh/
+              - listitem [ref=e1937]:
+                - link "Náš blog" [ref=e1938] [cursor=pointer]:
+                  - /url: https://blog.martinus.sk/
+              - listitem [ref=e1939]:
+                - link "Knihovrátok" [ref=e1940] [cursor=pointer]:
+                  - /url: https://www.martinus.sk/knihovratok
+              - listitem [ref=e1941]:
+                - link "Partnerský systém" [ref=e1942] [cursor=pointer]:
+                  - /url: http://partner.martinus.sk/
+              - listitem [ref=e1943]:
+                - link "Pridaj sa k nám" [ref=e1944] [cursor=pointer]:
+                  - /url: https://www.martinus.sk/pridajsa
+              - listitem [ref=e1945]:
+                - link "Marketing" [ref=e1946] [cursor=pointer]:
+                  - /url: https://www.martinus.sk/marketing
+              - listitem [ref=e1947]:
+                - link "Náš labák" [ref=e1948] [cursor=pointer]:
+                  - /url: https://www.martinus.sk/labak
+              - listitem [ref=e1949]:
+                - link "Prehlásenie o cookies" [ref=e1950] [cursor=pointer]:
+                  - /url: https://www.martinus.sk/prehlasenie-cookies
+              - listitem [ref=e1951]:
+                - link "Vyhlásenie o prístupnosti" [ref=e1952] [cursor=pointer]:
+                  - /url: https://www.martinus.sk/pristupnost
+          - generic [ref=e1954]:
+            - link "Martinus je certifikovaný B Corp" [ref=e1956] [cursor=pointer]:
+              - /url: /bcorp
+              - generic [ref=e1957]: Martinus je certifikovaný B Corp
+            - link "Nerobíme rozdiely" [ref=e1959] [cursor=pointer]:
+              - /url: /nerobime-rozdiely
+              - generic [ref=e1960]: Nerobíme rozdiely
+        - generic [ref=e1961]:
+          - generic [ref=e1963]:
+            - generic [ref=e1965] [cursor=pointer]: "Najlepšie novinky sú tie knižné. Získajte ich ako prví. (Pre osoby staršie ako 16 rokov.):"
+            - generic [ref=e1966]:
+              - textbox "Najlepšie novinky sú tie knižné. Získajte ich ako prví. (Pre osoby staršie ako 16 rokov.):" [ref=e1967]:
+                - /placeholder: Napíšte nám váš e-mail
+              - button "Odoslať" [ref=e1969] [cursor=pointer]
+          - generic [ref=e1971]:
+            - link "Martinus na Facebooku" [ref=e1972] [cursor=pointer]:
+              - /url: https://www.facebook.com/Martinus.sk
+              - img [ref=e1973]
+            - link "Martinus na TikToku" [ref=e1975] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@martinus_sk?lang=sk-SK
+              - img [ref=e1976]
+            - link "Martinus na Instagrame" [ref=e1978] [cursor=pointer]:
+              - /url: https://instagram.com/martinus_sk/
+              - img [ref=e1979]
+            - link "Martinus na YouTube" [ref=e1981] [cursor=pointer]:
+              - /url: https://www.youtube.com/Martinus
+              - img [ref=e1982]
+        - generic [ref=e1984]:
+          - generic [ref=e1986]:
+            - img "Martinus" [ref=e1988]
+            - generic [ref=e1989]: © 2000-2025 Martinus. Internetové kníhkupectvo. Všetky práva vyhradené.
+          - list [ref=e1991]:
+            - listitem [ref=e1992]:
+              - link "Nastaviť cookies" [ref=e1993] [cursor=pointer]:
+                - /url: "javascript: Cookiebot.renew()"
+            - listitem [ref=e1994] [cursor=pointer]:
+              - link "Ochrana súkromia" [ref=e1995]:
+                - /url: /pomoc/ochrana-sukromia
+            - listitem [ref=e1996] [cursor=pointer]:
+              - link "Obchodné podmienky" [ref=e1997]:
+                - /url: /pomoc/obchodne-podmienky
+    - generic [ref=e1998] [cursor=pointer]:
+      - img [ref=e1999]
+      - text: Potrebujete pomôcť?
+  - iframe [ref=e2001]:
+    
+```

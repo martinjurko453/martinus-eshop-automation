@@ -1,0 +1,19 @@
+{
+  "name": "zadanie_shop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test:bdd": "cucumber-js features/**/*.feature --require-module ts-node/register --require features/steps/**/*.ts --format progress",
+    "test:bdd:report": "cucumber-js features/**/*.feature --require-module ts-node/register --require features/steps/**/*.ts --format html:report.html"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.2.1",
+    "@playwright/test": "^1.46.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
+}
