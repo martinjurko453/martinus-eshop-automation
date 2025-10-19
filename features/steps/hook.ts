@@ -1,20 +1,3 @@
-// import { After } from '@cucumber/cucumber';
-// import { Browser } from '@playwright/test';
-
-// declare let browser: Browser;
-
-// After(async function () {
-//   try {
-//     if (browser) {
-//       await browser.close();
-//       console.log('🧹 Browser closed after scenario');
-//     }
-//   } catch (error) {
-//     console.error('⚠️ Error while closing browser:', error);
-//   }
-// });
-
-
 import { Before, After } from '@cucumber/cucumber';
 import { Browser } from '@playwright/test';
 import { Logger } from '../../utils/Logger';
