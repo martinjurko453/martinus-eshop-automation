@@ -69,6 +69,28 @@ report.html
 
 ---
 
+
+---
+
+## 🧠 Approach & Challenges
+
+The goal was to create a small but realistic automation framework in TypeScript using Playwright and Cucumber.
+I followed Page Object Model (POM) principles to keep the code modular and reusable.
+
+### Approach
+- Used **POM** for better code organization.
+- Stored test data in a **JSON file** to separate data from logic.
+- Implemented both **positive** and **negative** scenarios.
+- Used a **custom logger** to make reports and console outputs cleaner.
+- Added **CI/CD** via GitHub Actions for daily automated runs.
+
+### Challenges & Decisions
+- Some elements on the Martinus page were dynamic, so I had to use **unique locators** (e.g. partial hrefs).
+- To avoid flaky tests, I added small waits and `isElementVisible` checks.
+- I chose GitHub Actions for CI because it’s **free and easy to integrate** with Node.js projects.
+
+---
+
 ## 👥 Author
 **Martin Jurko**  
 Test Automation Engineer  
