@@ -31,7 +31,7 @@ Given('user opens Martinus Home Page', { timeout: 30000 }, async function () {
   cartPage = new CartPage(page);
 
   await homePage.goto();
-  await homePage.setViewPort(1920, 1080);
+  await homePage.setViewPort(CONFIG.viewport.width, CONFIG.viewport.height);
 });
 
 
