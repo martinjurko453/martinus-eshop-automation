@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test:bdd": "cucumber-js features/**/*.feature --require-module ts-node/register --require features/steps/**/*.ts --format progress",
+    "test:bdd": "cucumber-js features/**/*.feature --require-module ts-node/register --require features/support/config.ts --require features/support/world.ts --require features/steps/**/*.ts --format progress",
     "test:bdd:report": "cucumber-js features/**/*.feature --require-module ts-node/register --require features/steps/**/*.ts --format html:report.html"
   },
   "devDependencies": {

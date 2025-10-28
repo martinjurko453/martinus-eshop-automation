@@ -15,6 +15,6 @@ export class ProductPage extends ActionBasePage {
     await this.page.locator('text=Do košíka ste práve pridali').waitFor({ timeout: 10000 });
     await this.clickOn(CartPageLocators.EDIT_CART_BTN);
     await this.waitForContentLoadAndWait();
-    Logger.success('✅ Item successfully added to basket');
+    Logger.success('Item successfully added to basket');
   }
 }

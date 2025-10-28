@@ -20,26 +20,26 @@ export class HomePage extends ActionBasePage{
 
 
   async searchItem(item: string, resultLocator: string): Promise<void> {
-    Logger.step(`🔍 Searching for item: ${item}`);
+    Logger.step(`Searching for item: ${item}`);
     await this.fillInput(HomePageLocators.SEARCH_INPUT, item);
     const isVisible = await this.isElementVisible(resultLocator);
     if (!isVisible) {
-      Logger.error(`❌ No visible search result for "${item}"`);
+      Logger.error(`No visible search result for "${item}"`);
       throw new Error(`Expected search result not found for: ${item}`);
     }
     await this.clickOn(resultLocator);
-    Logger.success(`✅ Search result clicked for "${item}"`);
+    Logger.success(`Search result clicked for "${item}"`);
   }
 
 
   async getNoResultMessage(): Promise<string> {
   const isVisible = await this.isElementVisible(HomePageLocators.SEARCH_NO_RESULTS);
   if (!isVisible) {
-    Logger.error('❌ No results message not visible');
+    Logger.error('No results message not visible');
     throw new Error('No results message was not displayed!');
   }
   const message = await this.getElementText(HomePageLocators.SEARCH_NO_RESULTS);
-  Logger.success('❌ System correctly displayed "no results" message');
+  Logger.success('System correctly displayed "no results" message');
   return message;
   }
 }

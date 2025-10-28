@@ -6,16 +6,16 @@ declare let browser: Browser;
 
 Before(async function (scenario) {
   Logger.step(`🎬 Starting scenario: ${scenario.pickle.name}`);
+  await this.context.init();
 });
 
 After(async function (scenario) {
-  try {
-    if (browser) {
-      await browser.close();
-      Logger.cleanup('Browser closed after scenario');
-    }
+  try {    
+    await this.context.close()
+    Logger.cleanup('Browser closed after scenario');
+    
 
-    if (scenario.result?.status === 'PASSED') {
+    if (scenario.result?.status === 'PASSED') { 
       Logger.success(`✅ Scenario passed: ${scenario.pickle.name}`);
     } else if (scenario.result?.status === 'FAILED') {
       Logger.error(`❌ Scenario failed: ${scenario.pickle.name}`);
