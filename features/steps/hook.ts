@@ -1,15 +1,16 @@
 import { Before, After } from '@cucumber/cucumber';
 import { Browser } from '@playwright/test';
 import { Logger } from '../../utils/Logger';
+import { CustomWorld } from '../support/world';
 
 declare let browser: Browser;
 
-Before(async function (scenario) {
+Before(async function (this:CustomWorld, scenario) {
   Logger.step(`🎬 Starting scenario: ${scenario.pickle.name}`);
   await this.context.init();
 });
 
-After(async function (scenario) {
+After(async function (this:CustomWorld, scenario) {
   try {    
     await this.context.close()
     Logger.cleanup('Browser closed after scenario');
